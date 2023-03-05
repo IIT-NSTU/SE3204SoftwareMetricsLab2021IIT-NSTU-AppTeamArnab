@@ -1,0 +1,6 @@
+[2023-03-04 19:27:27] Start:PMD2GraphTask
+PMD2Graph 5.1.0 (Build:85480f99) - Copyright (c) 2004-2022 Department of Software Engineering - University of Szeged 
+Loading LIM ASG file "C:\Users\arnab\Desktop\result\IITNSTU\java\2023-03-04-19-26-55\analyzer\asg\IITNSTU.lim"
+Loading filter file "C:\Users\arnab\Desktop\result\IITNSTU\java\2023-03-04-19-26-55\analyzer\asg\IITNSTU.flim"
+Loading xml file "C:\Users\arnab\Desktop\result\IITNSTU\java\2023-03-04-19-26-55\analyzer\temp\IITNSTU-PMD.xml"
+[2023-03-04 19:27:28] End:PMD2GraphTask Result:OK

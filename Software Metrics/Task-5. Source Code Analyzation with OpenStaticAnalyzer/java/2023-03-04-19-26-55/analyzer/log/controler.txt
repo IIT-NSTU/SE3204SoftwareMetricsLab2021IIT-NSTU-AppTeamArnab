@@ -1,0 +1,25 @@
+  [2023-03-04 19:26:55] Starting task:          DirectoryBasedAnalysisTask
+  [2023-03-04 19:27:24] Task ended (+00:00:29): DirectoryBasedAnalysisTask     Result:OK
+  [2023-03-04 19:27:24] Starting task:          JANFilterTask
+  [2023-03-04 19:27:24] Task ended (+00:00:00): JANFilterTask                  Result:OK
+  [2023-03-04 19:27:24] Starting task:          JAN2limTask
+  [2023-03-04 19:27:26] Task ended (+00:00:02): JAN2limTask                    Result:OK
+  [2023-03-04 19:27:26] Starting task:          DcfTask
+  [2023-03-04 19:27:26] Starting task:          ProfileTask
+  [2023-03-04 19:27:26] Starting task:          Lim2metricsTask
+  [2023-03-04 19:27:27] Task ended (+00:00:01): ProfileTask                    Result:OK
+  [2023-03-04 19:27:27] Starting task:          PMD2GraphTask
+  [2023-03-04 19:27:28] Task ended (+00:00:02): Lim2metricsTask                Result:OK
+  [2023-03-04 19:27:28] Task ended (+00:00:01): PMD2GraphTask                  Result:OK
+  [2023-03-04 19:27:29] Task ended (+00:00:03): DcfTask                        Result:OK
+  [2023-03-04 19:27:29] Starting task:          GraphMergeTask
+  [2023-03-04 19:27:30] Task ended (+00:00:01): GraphMergeTask                 Result:OK
+  [2023-03-04 19:27:30] Starting task:          MetricHunterTask
+  [2023-03-04 19:27:31] Task ended (+00:00:01): MetricHunterTask               Result:OK
+  [2023-03-04 19:27:31] Starting task:          UserDefinedMetricsTask
+  [2023-03-04 19:27:31] Task ended (+00:00:00): UserDefinedMetricsTask         Result:OK
+  [2023-03-04 19:27:31] Starting task:          LIM2PatternsTask
+  [2023-03-04 19:27:32] Task ended (+00:00:01): LIM2PatternsTask               Result:OK
+  [2023-03-04 19:27:32] Starting task:          GraphDumpTask
+  [2023-03-04 19:27:37] Task ended (+00:00:05): GraphDumpTask                  Result:OK
+Done!

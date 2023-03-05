@@ -1,0 +1,4 @@
+AnalyzerJava
+-resultsDir=C:\Users\arnab\Desktop\result
+-projectName=IITNSTU
+-projectBaseDir=C:\Users\arnab\AndroidStudioProjects\IITNSTU

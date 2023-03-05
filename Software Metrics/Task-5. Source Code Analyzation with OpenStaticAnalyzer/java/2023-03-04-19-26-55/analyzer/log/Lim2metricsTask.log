@@ -1,0 +1,11 @@
+[2023-03-04 19:27:26] Start:Lim2metricsTask
+LIM2Metrics 5.1.0 (Build:85480f99) - Copyright (c) 2004-2022 Department of Software Engineering - University of Szeged 
+Saving graph to C:\Users\arnab\Desktop\result\IITNSTU\java\2023-03-04-19-26-55\analyzer\graph\IITNSTU-metrics.graph
+Exporting rul
+
+Statistics:
+	Calculation time         :       0.57s
+	Export time              :       0.93s
+	Total time               :       1.02s
+	Peak memory usage        :      71.80MB
+[2023-03-04 19:27:28] End:Lim2metricsTask Result:OK

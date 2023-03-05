@@ -1,0 +1,221 @@
+[2023-03-04 19:27:30] Start:MetricHunterTask
+MetricHunter 5.1.0 Java (Build:85480f99) - Copyright (c) 2004-2022 Department of Software Engineering - University of Szeged 
+Warning: No 'NA' metric rule found in the graph!
+Warning: Rule for the following threshold configuration has not been built into the graph!
+m_id: NA Relation:gt Value:15 Entities: Class
+Warning: No 'NA' metric rule found in the graph!
+Warning: Rule for the following threshold configuration has not been built into the graph!
+m_id: NA Relation:gt Value:15 Entities: Interface
+Warning: No 'NA' metric rule found in the graph!
+Warning: Rule for the following threshold configuration has not been built into the graph!
+m_id: NA Relation:gt Value:15 Entities: Enum
+Warning: No 'NA' metric rule found in the graph!
+Warning: Rule for the following threshold configuration has not been built into the graph!
+m_id: NA Relation:gt Value:15 Entities: Annotation
+Warning: No 'NLA' metric rule found in the graph!
+Warning: Rule for the following threshold configuration has not been built into the graph!
+m_id: NLA Relation:gt Value:5 Entities: Class
+Warning: No 'NLA' metric rule found in the graph!
+Warning: Rule for the following threshold configuration has not been built into the graph!
+m_id: NLA Relation:gt Value:5 Entities: Interface
+Warning: No 'NLA' metric rule found in the graph!
+Warning: Rule for the following threshold configuration has not been built into the graph!
+m_id: NLA Relation:gt Value:5 Entities: Enum
+Warning: No 'NLA' metric rule found in the graph!
+Warning: Rule for the following threshold configuration has not been built into the graph!
+m_id: NLA Relation:gt Value:5 Entities: Annotation
+Warning: No 'NLPA' metric rule found in the graph!
+Warning: Rule for the following threshold configuration has not been built into the graph!
+m_id: NLPA Relation:gt Value:0 Entities: Class
+Warning: No 'NLPA' metric rule found in the graph!
+Warning: Rule for the following threshold configuration has not been built into the graph!
+m_id: NLPA Relation:gt Value:0 Entities: Interface
+Warning: No 'NLPA' metric rule found in the graph!
+Warning: Rule for the following threshold configuration has not been built into the graph!
+m_id: NLPA Relation:gt Value:0 Entities: Enum
+Warning: No 'NLPA' metric rule found in the graph!
+Warning: Rule for the following threshold configuration has not been built into the graph!
+m_id: NLPA Relation:gt Value:0 Entities: Annotation
+Warning: No 'NPA' metric rule found in the graph!
+Warning: Rule for the following threshold configuration has not been built into the graph!
+m_id: NPA Relation:gt Value:0 Entities: Class
+Warning: No 'NPA' metric rule found in the graph!
+Warning: Rule for the following threshold configuration has not been built into the graph!
+m_id: NPA Relation:gt Value:0 Entities: Interface
+Warning: No 'NPA' metric rule found in the graph!
+Warning: Rule for the following threshold configuration has not been built into the graph!
+m_id: NPA Relation:gt Value:0 Entities: Enum
+Warning: No 'NPA' metric rule found in the graph!
+Warning: Rule for the following threshold configuration has not been built into the graph!
+m_id: NPA Relation:gt Value:0 Entities: Annotation
+Warning: No 'TNA' metric rule found in the graph!
+Warning: Rule for the following threshold configuration has not been built into the graph!
+m_id: TNA Relation:gt Value:24 Entities: Class
+Warning: No 'TNA' metric rule found in the graph!
+Warning: Rule for the following threshold configuration has not been built into the graph!
+m_id: TNA Relation:gt Value:24 Entities: Interface
+Warning: No 'TNA' metric rule found in the graph!
+Warning: Rule for the following threshold configuration has not been built into the graph!
+m_id: TNA Relation:gt Value:24 Entities: Enum
+Warning: No 'TNA' metric rule found in the graph!
+Warning: Rule for the following threshold configuration has not been built into the graph!
+m_id: TNA Relation:gt Value:24 Entities: Annotation
+Warning: No 'TNLA' metric rule found in the graph!
+Warning: Rule for the following threshold configuration has not been built into the graph!
+m_id: TNLA Relation:gt Value:8 Entities: Class
+Warning: No 'TNLA' metric rule found in the graph!
+Warning: Rule for the following threshold configuration has not been built into the graph!
+m_id: TNLA Relation:gt Value:8 Entities: Interface
+Warning: No 'TNLA' metric rule found in the graph!
+Warning: Rule for the following threshold configuration has not been built into the graph!
+m_id: TNLA Relation:gt Value:8 Entities: Enum
+Warning: No 'TNLA' metric rule found in the graph!
+Warning: Rule for the following threshold configuration has not been built into the graph!
+m_id: TNLA Relation:gt Value:8 Entities: Annotation
+Warning: No 'TNLPA' metric rule found in the graph!
+Warning: Rule for the following threshold configuration has not been built into the graph!
+m_id: TNLPA Relation:gt Value:0 Entities: Class
+Warning: No 'TNLPA' metric rule found in the graph!
+Warning: Rule for the following threshold configuration has not been built into the graph!
+m_id: TNLPA Relation:gt Value:0 Entities: Interface
+Warning: No 'TNLPA' metric rule found in the graph!
+Warning: Rule for the following threshold configuration has not been built into the graph!
+m_id: TNLPA Relation:gt Value:0 Entities: Enum
+Warning: No 'TNLPA' metric rule found in the graph!
+Warning: Rule for the following threshold configuration has not been built into the graph!
+m_id: TNLPA Relation:gt Value:0 Entities: Annotation
+Warning: No 'TNPA' metric rule found in the graph!
+Warning: Rule for the following threshold configuration has not been built into the graph!
+m_id: TNPA Relation:gt Value:0 Entities: Class
+Warning: No 'TNPA' metric rule found in the graph!
+Warning: Rule for the following threshold configuration has not been built into the graph!
+m_id: TNPA Relation:gt Value:0 Entities: Interface
+Warning: No 'TNPA' metric rule found in the graph!
+Warning: Rule for the following threshold configuration has not been built into the graph!
+m_id: TNPA Relation:gt Value:0 Entities: Enum
+Warning: No 'TNPA' metric rule found in the graph!
+Warning: Rule for the following threshold configuration has not been built into the graph!
+m_id: TNPA Relation:gt Value:0 Entities: Annotation
+Warning: No 'CD' metric rule found in the graph!
+Warning: Rule for the following threshold configuration has not been built into the graph!
+m_id: CD Relation:lt Value:0.25 Entities: Class
+Warning: No 'CD' metric rule found in the graph!
+Warning: Rule for the following threshold configuration has not been built into the graph!
+m_id: CD Relation:lt Value:0.25 Entities: Interface
+Warning: No 'CD' metric rule found in the graph!
+Warning: Rule for the following threshold configuration has not been built into the graph!
+m_id: CD Relation:lt Value:0.25 Entities: Enum
+Warning: No 'CD' metric rule found in the graph!
+Warning: Rule for the following threshold configuration has not been built into the graph!
+m_id: CD Relation:lt Value:0.25 Entities: Annotation
+Warning: No 'TCD' metric rule found in the graph!
+Warning: Rule for the following threshold configuration has not been built into the graph!
+m_id: TCD Relation:lt Value:0.25 Entities: Class
+Warning: No 'TCD' metric rule found in the graph!
+Warning: Rule for the following threshold configuration has not been built into the graph!
+m_id: TCD Relation:lt Value:0.25 Entities: Interface
+Warning: No 'TCD' metric rule found in the graph!
+Warning: Rule for the following threshold configuration has not been built into the graph!
+m_id: TCD Relation:lt Value:0.25 Entities: Enum
+Warning: No 'TCD' metric rule found in the graph!
+Warning: Rule for the following threshold configuration has not been built into the graph!
+m_id: TCD Relation:lt Value:0.25 Entities: Annotation
+Warning: No 'NL' metric rule found in the graph!
+Warning: Rule for the following threshold configuration has not been built into the graph!
+m_id: NL Relation:gt Value:5 Entities: Class
+Warning: No 'NL' metric rule found in the graph!
+Warning: Rule for the following threshold configuration has not been built into the graph!
+m_id: NL Relation:gt Value:5 Entities: Interface
+Warning: No 'NL' metric rule found in the graph!
+Warning: Rule for the following threshold configuration has not been built into the graph!
+m_id: NL Relation:gt Value:5 Entities: Enum
+Warning: No 'NL' metric rule found in the graph!
+Warning: Rule for the following threshold configuration has not been built into the graph!
+m_id: NL Relation:gt Value:5 Entities: Annotation
+Warning: No 'NLE' metric rule found in the graph!
+Warning: Rule for the following threshold configuration has not been built into the graph!
+m_id: NLE Relation:gt Value:3 Entities: Class
+Warning: No 'NLE' metric rule found in the graph!
+Warning: Rule for the following threshold configuration has not been built into the graph!
+m_id: NLE Relation:gt Value:3 Entities: Interface
+Warning: No 'NLE' metric rule found in the graph!
+Warning: Rule for the following threshold configuration has not been built into the graph!
+m_id: NLE Relation:gt Value:3 Entities: Enum
+Warning: No 'NLE' metric rule found in the graph!
+Warning: Rule for the following threshold configuration has not been built into the graph!
+m_id: NLE Relation:gt Value:3 Entities: Annotation
+Warning: No 'CD' metric rule found in the graph!
+Warning: Rule for the following threshold configuration has not been built into the graph!
+m_id: CD Relation:lt Value:0.25 Entities: Method
+Warning: No 'TCD' metric rule found in the graph!
+Warning: Rule for the following threshold configuration has not been built into the graph!
+m_id: TCD Relation:lt Value:0.25 Entities: Method
+Warning: No 'NL' metric rule found in the graph!
+Warning: Rule for the following threshold configuration has not been built into the graph!
+m_id: NL Relation:gt Value:5 Entities: Method
+Warning: No 'NLE' metric rule found in the graph!
+Warning: Rule for the following threshold configuration has not been built into the graph!
+m_id: NLE Relation:gt Value:3 Entities: Method
+Warning: Metric 'WarningBlocker' is not calculated for the 'Class' entities!
+Warning: Rule for the following threshold configuration has not been built into the graph!
+m_id: WarningBlocker Relation:gt Value:0 Entities: Class
+Warning: Metric 'WarningBlocker' is not calculated for the 'Interface' entities!
+Warning: Rule for the following threshold configuration has not been built into the graph!
+m_id: WarningBlocker Relation:gt Value:0 Entities: Interface
+Warning: Metric 'WarningBlocker' is not calculated for the 'Enum' entities!
+Warning: Rule for the following threshold configuration has not been built into the graph!
+m_id: WarningBlocker Relation:gt Value:0 Entities: Enum
+Warning: Metric 'WarningBlocker' is not calculated for the 'Annotation' entities!
+Warning: Rule for the following threshold configuration has not been built into the graph!
+m_id: WarningBlocker Relation:gt Value:0 Entities: Annotation
+Warning: Metric 'WarningCritical' is not calculated for the 'Class' entities!
+Warning: Rule for the following threshold configuration has not been built into the graph!
+m_id: WarningCritical Relation:gt Value:0 Entities: Class
+Warning: Metric 'WarningCritical' is not calculated for the 'Interface' entities!
+Warning: Rule for the following threshold configuration has not been built into the graph!
+m_id: WarningCritical Relation:gt Value:0 Entities: Interface
+Warning: Metric 'WarningCritical' is not calculated for the 'Enum' entities!
+Warning: Rule for the following threshold configuration has not been built into the graph!
+m_id: WarningCritical Relation:gt Value:0 Entities: Enum
+Warning: Metric 'WarningCritical' is not calculated for the 'Annotation' entities!
+Warning: Rule for the following threshold configuration has not been built into the graph!
+m_id: WarningCritical Relation:gt Value:0 Entities: Annotation
+Warning: Metric 'WarningMajor' is not calculated for the 'Class' entities!
+Warning: Rule for the following threshold configuration has not been built into the graph!
+m_id: WarningMajor Relation:gt Value:0 Entities: Class
+Warning: Metric 'WarningMajor' is not calculated for the 'Interface' entities!
+Warning: Rule for the following threshold configuration has not been built into the graph!
+m_id: WarningMajor Relation:gt Value:0 Entities: Interface
+Warning: Metric 'WarningMajor' is not calculated for the 'Enum' entities!
+Warning: Rule for the following threshold configuration has not been built into the graph!
+m_id: WarningMajor Relation:gt Value:0 Entities: Enum
+Warning: Metric 'WarningMajor' is not calculated for the 'Annotation' entities!
+Warning: Rule for the following threshold configuration has not been built into the graph!
+m_id: WarningMajor Relation:gt Value:0 Entities: Annotation
+Warning: Metric 'WarningMinor' is not calculated for the 'Class' entities!
+Warning: Rule for the following threshold configuration has not been built into the graph!
+m_id: WarningMinor Relation:gt Value:0 Entities: Class
+Warning: Metric 'WarningMinor' is not calculated for the 'Interface' entities!
+Warning: Rule for the following threshold configuration has not been built into the graph!
+m_id: WarningMinor Relation:gt Value:0 Entities: Interface
+Warning: Metric 'WarningMinor' is not calculated for the 'Enum' entities!
+Warning: Rule for the following threshold configuration has not been built into the graph!
+m_id: WarningMinor Relation:gt Value:0 Entities: Enum
+Warning: Metric 'WarningMinor' is not calculated for the 'Annotation' entities!
+Warning: Rule for the following threshold configuration has not been built into the graph!
+m_id: WarningMinor Relation:gt Value:0 Entities: Annotation
+Warning: Metric 'WarningBlocker' is not calculated for the 'Method' entities!
+Warning: Rule for the following threshold configuration has not been built into the graph!
+m_id: WarningBlocker Relation:gt Value:0 Entities: Method
+Warning: Metric 'WarningCritical' is not calculated for the 'Method' entities!
+Warning: Rule for the following threshold configuration has not been built into the graph!
+m_id: WarningCritical Relation:gt Value:0 Entities: Method
+Warning: Metric 'WarningMajor' is not calculated for the 'Method' entities!
+Warning: Rule for the following threshold configuration has not been built into the graph!
+m_id: WarningMajor Relation:gt Value:0 Entities: Method
+Warning: Metric 'WarningMinor' is not calculated for the 'Method' entities!
+Warning: Rule for the following threshold configuration has not been built into the graph!
+m_id: WarningMinor Relation:gt Value:0 Entities: Method
+Succesfully added 409 warnings! 
+Graph saved successfully to C:\Users\arnab\Desktop\result\IITNSTU\java\2023-03-04-19-26-55\IITNSTU.graph! 
+[2023-03-04 19:27:31] End:MetricHunterTask Result:OK
