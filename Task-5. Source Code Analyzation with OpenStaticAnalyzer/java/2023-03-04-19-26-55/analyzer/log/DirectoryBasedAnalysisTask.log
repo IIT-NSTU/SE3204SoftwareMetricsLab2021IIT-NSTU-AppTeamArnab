@@ -1,0 +1,1916 @@
+[2023-03-04 19:26:55] Start:DirectoryBasedAnalysisTask
+GenericConfig 5.1.0 (Build:85480f99) - Copyright (c) 2004-2022 Department of Software Engineering - University of Szeged 
+INFO  org.jan.Main - JAN (build #85480f99)
+INFO  org.jan.OptionParser - JAN options:
+INFO  org.jan.OptionParser -   columbusResultDir=.columbus_java
+INFO  org.jan.OptionParser -   hardFilter=
+INFO  org.jan.OptionParser -   messageLevel=3
+INFO  org.jan.OptionParser -   xmlToEveryClass=0
+INFO  org.jan.OptionParser -   needCheck=0
+INFO  org.jan.OptionParser -   keepComments=1
+INFO  org.jan.OptionParser -   buildAllExternal=0
+INFO  org.jan.OptionParser -   buildExtFromSource=1
+INFO  org.jan.OptionParser -   buildAllParentForOverrides=1
+INFO  org.jan.OptionParser - Switch the log level to 3.
+INFO  org.jan.JDKTreeMaker - Javac options:
+INFO  org.jan.JDKTreeMaker -   -cp
+INFO  org.jan.JDKTreeMaker -   .
+INFO  org.jan.CompilerLogger - C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\src\androidTest\java\com\whatEver\iitnstu\AuthenticationActivityTest.java:4: error: package android.view does not exist
+INFO  org.jan.CompilerLogger - import android.view.View;
+INFO  org.jan.CompilerLogger -                    ^
+INFO  org.jan.CompilerLogger - C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\src\androidTest\java\com\whatEver\iitnstu\AuthenticationActivityTest.java:5: error: package android.view does not exist
+INFO  org.jan.CompilerLogger - import android.view.ViewGroup;
+INFO  org.jan.CompilerLogger -                    ^
+INFO  org.jan.CompilerLogger - C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\src\androidTest\java\com\whatEver\iitnstu\AuthenticationActivityTest.java:6: error: package android.view does not exist
+INFO  org.jan.CompilerLogger - import android.view.ViewParent;
+INFO  org.jan.CompilerLogger -                    ^
+INFO  org.jan.CompilerLogger - C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\src\androidTest\java\com\whatEver\iitnstu\AuthenticationActivityTest.java:8: error: package androidx.test.espresso does not exist
+INFO  org.jan.CompilerLogger - import androidx.test.espresso.ViewInteraction;
+INFO  org.jan.CompilerLogger -                              ^
+INFO  org.jan.CompilerLogger - C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\src\androidTest\java\com\whatEver\iitnstu\AuthenticationActivityTest.java:9: error: package androidx.test.ext.junit.runners does not exist
+INFO  org.jan.CompilerLogger - import androidx.test.ext.junit.runners.AndroidJUnit4;
+INFO  org.jan.CompilerLogger -                                       ^
+INFO  org.jan.CompilerLogger - C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\src\androidTest\java\com\whatEver\iitnstu\AuthenticationActivityTest.java:10: error: package androidx.test.filters does not exist
+INFO  org.jan.CompilerLogger - import androidx.test.filters.LargeTest;
+INFO  org.jan.CompilerLogger -                             ^
+INFO  org.jan.CompilerLogger - C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\src\androidTest\java\com\whatEver\iitnstu\AuthenticationActivityTest.java:11: error: package androidx.test.rule does not exist
+INFO  org.jan.CompilerLogger - import androidx.test.rule.ActivityTestRule;
+INFO  org.jan.CompilerLogger -                          ^
+INFO  org.jan.CompilerLogger - C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\src\androidTest\java\com\whatEver\iitnstu\AuthenticationActivityTest.java:12: error: package androidx.test.rule does not exist
+INFO  org.jan.CompilerLogger - import androidx.test.rule.GrantPermissionRule;
+INFO  org.jan.CompilerLogger -                          ^
+INFO  org.jan.CompilerLogger - C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\src\androidTest\java\com\whatEver\iitnstu\AuthenticationActivityTest.java:14: error: package org.hamcrest does not exist
+INFO  org.jan.CompilerLogger - import org.hamcrest.Description;
+INFO  org.jan.CompilerLogger -                    ^
+INFO  org.jan.CompilerLogger - C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\src\androidTest\java\com\whatEver\iitnstu\AuthenticationActivityTest.java:15: error: package org.hamcrest does not exist
+INFO  org.jan.CompilerLogger - import org.hamcrest.Matcher;
+INFO  org.jan.CompilerLogger -                    ^
+INFO  org.jan.CompilerLogger - C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\src\androidTest\java\com\whatEver\iitnstu\AuthenticationActivityTest.java:16: error: package org.hamcrest does not exist
+INFO  org.jan.CompilerLogger - import org.hamcrest.TypeSafeMatcher;
+INFO  org.jan.CompilerLogger -                    ^
+INFO  org.jan.CompilerLogger - C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\src\androidTest\java\com\whatEver\iitnstu\AuthenticationActivityTest.java:17: error: package org.junit does not exist
+INFO  org.jan.CompilerLogger - import org.junit.Rule;
+INFO  org.jan.CompilerLogger -                 ^
+INFO  org.jan.CompilerLogger - C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\src\androidTest\java\com\whatEver\iitnstu\AuthenticationActivityTest.java:18: error: package org.junit does not exist
+INFO  org.jan.CompilerLogger - import org.junit.Test;
+INFO  org.jan.CompilerLogger -                 ^
+INFO  org.jan.CompilerLogger - C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\src\androidTest\java\com\whatEver\iitnstu\AuthenticationActivityTest.java:19: error: package org.junit.runner does not exist
+INFO  org.jan.CompilerLogger - import org.junit.runner.RunWith;
+INFO  org.jan.CompilerLogger -                        ^
+INFO  org.jan.CompilerLogger - C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\src\androidTest\java\com\whatEver\iitnstu\AuthenticationActivityTest.java:21: error: package androidx.test.espresso does not exist
+INFO  org.jan.CompilerLogger - import static androidx.test.espresso.Espresso.onView;
+INFO  org.jan.CompilerLogger -                                     ^
+INFO  org.jan.CompilerLogger - C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\src\androidTest\java\com\whatEver\iitnstu\AuthenticationActivityTest.java:21: error: static import only from classes and interfaces
+INFO  org.jan.CompilerLogger - import static androidx.test.espresso.Espresso.onView;
+INFO  org.jan.CompilerLogger - ^
+INFO  org.jan.CompilerLogger - C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\src\androidTest\java\com\whatEver\iitnstu\AuthenticationActivityTest.java:22: error: package androidx.test.espresso.action does not exist
+INFO  org.jan.CompilerLogger - import static androidx.test.espresso.action.ViewActions.click;
+INFO  org.jan.CompilerLogger -                                            ^
+INFO  org.jan.CompilerLogger - C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\src\androidTest\java\com\whatEver\iitnstu\AuthenticationActivityTest.java:22: error: static import only from classes and interfaces
+INFO  org.jan.CompilerLogger - import static androidx.test.espresso.action.ViewActions.click;
+INFO  org.jan.CompilerLogger - ^
+INFO  org.jan.CompilerLogger - C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\src\androidTest\java\com\whatEver\iitnstu\AuthenticationActivityTest.java:23: error: package androidx.test.espresso.action does not exist
+INFO  org.jan.CompilerLogger - import static androidx.test.espresso.action.ViewActions.closeSoftKeyboard;
+INFO  org.jan.CompilerLogger -                                            ^
+INFO  org.jan.CompilerLogger - C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\src\androidTest\java\com\whatEver\iitnstu\AuthenticationActivityTest.java:23: error: static import only from classes and interfaces
+INFO  org.jan.CompilerLogger - import static androidx.test.espresso.action.ViewActions.closeSoftKeyboard;
+INFO  org.jan.CompilerLogger - ^
+INFO  org.jan.CompilerLogger - C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\src\androidTest\java\com\whatEver\iitnstu\AuthenticationActivityTest.java:24: error: package androidx.test.espresso.action does not exist
+INFO  org.jan.CompilerLogger - import static androidx.test.espresso.action.ViewActions.replaceText;
+INFO  org.jan.CompilerLogger -                                            ^
+INFO  org.jan.CompilerLogger - C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\src\androidTest\java\com\whatEver\iitnstu\AuthenticationActivityTest.java:24: error: static import only from classes and interfaces
+INFO  org.jan.CompilerLogger - import static androidx.test.espresso.action.ViewActions.replaceText;
+INFO  org.jan.CompilerLogger - ^
+INFO  org.jan.CompilerLogger - C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\src\androidTest\java\com\whatEver\iitnstu\AuthenticationActivityTest.java:25: error: package androidx.test.espresso.matcher does not exist
+INFO  org.jan.CompilerLogger - import static androidx.test.espresso.matcher.ViewMatchers.isDisplayed;
+INFO  org.jan.CompilerLogger -                                             ^
+INFO  org.jan.CompilerLogger - C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\src\androidTest\java\com\whatEver\iitnstu\AuthenticationActivityTest.java:25: error: static import only from classes and interfaces
+INFO  org.jan.CompilerLogger - import static androidx.test.espresso.matcher.ViewMatchers.isDisplayed;
+INFO  org.jan.CompilerLogger - ^
+INFO  org.jan.CompilerLogger - C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\src\androidTest\java\com\whatEver\iitnstu\AuthenticationActivityTest.java:26: error: package androidx.test.espresso.matcher does not exist
+INFO  org.jan.CompilerLogger - import static androidx.test.espresso.matcher.ViewMatchers.withId;
+INFO  org.jan.CompilerLogger -                                             ^
+INFO  org.jan.CompilerLogger - C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\src\androidTest\java\com\whatEver\iitnstu\AuthenticationActivityTest.java:26: error: static import only from classes and interfaces
+INFO  org.jan.CompilerLogger - import static androidx.test.espresso.matcher.ViewMatchers.withId;
+INFO  org.jan.CompilerLogger - ^
+INFO  org.jan.CompilerLogger - C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\src\androidTest\java\com\whatEver\iitnstu\AuthenticationActivityTest.java:27: error: package androidx.test.espresso.matcher does not exist
+INFO  org.jan.CompilerLogger - import static androidx.test.espresso.matcher.ViewMatchers.withText;
+INFO  org.jan.CompilerLogger -                                             ^
+INFO  org.jan.CompilerLogger - C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\src\androidTest\java\com\whatEver\iitnstu\AuthenticationActivityTest.java:27: error: static import only from classes and interfaces
+INFO  org.jan.CompilerLogger - import static androidx.test.espresso.matcher.ViewMatchers.withText;
+INFO  org.jan.CompilerLogger - ^
+INFO  org.jan.CompilerLogger - C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\src\androidTest\java\com\whatEver\iitnstu\AuthenticationActivityTest.java:28: error: package org.hamcrest does not exist
+INFO  org.jan.CompilerLogger - import static org.hamcrest.Matchers.allOf;
+INFO  org.jan.CompilerLogger -                           ^
+INFO  org.jan.CompilerLogger - C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\src\androidTest\java\com\whatEver\iitnstu\AuthenticationActivityTest.java:28: error: static import only from classes and interfaces
+INFO  org.jan.CompilerLogger - import static org.hamcrest.Matchers.allOf;
+INFO  org.jan.CompilerLogger - ^
+INFO  org.jan.CompilerLogger - C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\src\androidTest\java\com\whatEver\iitnstu\AuthenticationActivityTest.java:30: error: cannot find symbol
+INFO  org.jan.CompilerLogger - @LargeTest
+INFO  org.jan.CompilerLogger -  ^
+INFO  org.jan.CompilerLogger -   symbol: class LargeTest
+INFO  org.jan.CompilerLogger - C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\src\androidTest\java\com\whatEver\iitnstu\AuthenticationActivityTest.java:31: error: cannot find symbol
+INFO  org.jan.CompilerLogger - @RunWith(AndroidJUnit4.class)
+INFO  org.jan.CompilerLogger -  ^
+INFO  org.jan.CompilerLogger -   symbol: class RunWith
+INFO  org.jan.CompilerLogger - C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\src\androidTest\java\com\whatEver\iitnstu\AuthenticationActivityTest.java:35: error: cannot find symbol
+INFO  org.jan.CompilerLogger -     public ActivityTestRule<AuthenticationActivity> mActivityTestRule = new ActivityTestRule<>(AuthenticationActivity.class);
+INFO  org.jan.CompilerLogger -            ^
+INFO  org.jan.CompilerLogger -   symbol:   class ActivityTestRule
+INFO  org.jan.CompilerLogger -   location: class AuthenticationActivityTest
+INFO  org.jan.CompilerLogger - C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\src\main\java\com\whatEver\iitnstu\AuthenticationActivity.java:3: error: package androidx.appcompat.app does not exist
+INFO  org.jan.CompilerLogger - import androidx.appcompat.app.AppCompatActivity;
+INFO  org.jan.CompilerLogger -                              ^
+INFO  org.jan.CompilerLogger - C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\src\main\java\com\whatEver\iitnstu\AuthenticationActivity.java:5: error: package android.content does not exist
+INFO  org.jan.CompilerLogger - import android.content.Intent;
+INFO  org.jan.CompilerLogger -                       ^
+INFO  org.jan.CompilerLogger - C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\src\main\java\com\whatEver\iitnstu\AuthenticationActivity.java:6: error: package android.os does not exist
+INFO  org.jan.CompilerLogger - import android.os.Bundle;
+INFO  org.jan.CompilerLogger -                  ^
+INFO  org.jan.CompilerLogger - C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\src\main\java\com\whatEver\iitnstu\AuthenticationActivity.java:7: error: package android.text does not exist
+INFO  org.jan.CompilerLogger - import android.text.TextUtils;
+INFO  org.jan.CompilerLogger -                    ^
+INFO  org.jan.CompilerLogger - C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\src\main\java\com\whatEver\iitnstu\AuthenticationActivity.java:8: error: package android.widget does not exist
+INFO  org.jan.CompilerLogger - import android.widget.Button;
+INFO  org.jan.CompilerLogger -                      ^
+INFO  org.jan.CompilerLogger - C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\src\main\java\com\whatEver\iitnstu\AuthenticationActivity.java:9: error: package android.widget does not exist
+INFO  org.jan.CompilerLogger - import android.widget.EditText;
+INFO  org.jan.CompilerLogger -                      ^
+INFO  org.jan.CompilerLogger - C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\src\main\java\com\whatEver\iitnstu\AuthenticationActivity.java:10: error: package android.widget does not exist
+INFO  org.jan.CompilerLogger - import android.widget.TextView;
+INFO  org.jan.CompilerLogger -                      ^
+INFO  org.jan.CompilerLogger - C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\src\main\java\com\whatEver\iitnstu\AuthenticationActivity.java:11: error: package android.widget does not exist
+INFO  org.jan.CompilerLogger - import android.widget.Toast;
+INFO  org.jan.CompilerLogger -                      ^
+INFO  org.jan.CompilerLogger - C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\src\main\java\com\whatEver\iitnstu\AuthenticationActivity.java:13: error: cannot find symbol
+INFO  org.jan.CompilerLogger - import com.google.android.gms.tasks.OnSuccessListener;
+INFO  org.jan.CompilerLogger -                                    ^
+INFO  org.jan.CompilerLogger -   symbol:   class OnSuccessListener
+INFO  org.jan.CompilerLogger -   location: package com.google.android.gms.tasks
+INFO  org.jan.CompilerLogger - C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\src\main\java\com\whatEver\iitnstu\AuthenticationActivity.java:14: error: cannot find symbol
+INFO  org.jan.CompilerLogger - import com.google.firebase.auth.FirebaseAuth;
+INFO  org.jan.CompilerLogger -                                ^
+INFO  org.jan.CompilerLogger -   symbol:   class FirebaseAuth
+INFO  org.jan.CompilerLogger -   location: package com.google.firebase.auth
+INFO  org.jan.CompilerLogger - C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\src\main\java\com\whatEver\iitnstu\AuthenticationActivity.java:20: error: cannot find symbol
+INFO  org.jan.CompilerLogger - public class AuthenticationActivity extends AppCompatActivity {
+INFO  org.jan.CompilerLogger -                                             ^
+INFO  org.jan.CompilerLogger -   symbol: class AppCompatActivity
+INFO  org.jan.CompilerLogger - C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\src\androidTest\java\com\whatEver\iitnstu\AuthenticationActivityTest.java:39: error: cannot find symbol
+INFO  org.jan.CompilerLogger -     public GrantPermissionRule mGrantPermissionRule =
+INFO  org.jan.CompilerLogger -            ^
+INFO  org.jan.CompilerLogger -   symbol:   class GrantPermissionRule
+INFO  org.jan.CompilerLogger -   location: class AuthenticationActivityTest
+INFO  org.jan.CompilerLogger - C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\src\androidTest\java\com\whatEver\iitnstu\AuthenticationActivityTest.java:77: error: cannot find symbol
+INFO  org.jan.CompilerLogger -             final Matcher<View> parentMatcher, final int position) {
+INFO  org.jan.CompilerLogger -                   ^
+INFO  org.jan.CompilerLogger -   symbol:   class Matcher
+INFO  org.jan.CompilerLogger -   location: class AuthenticationActivityTest
+INFO  org.jan.CompilerLogger - C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\src\androidTest\java\com\whatEver\iitnstu\AuthenticationActivityTest.java:77: error: cannot find symbol
+INFO  org.jan.CompilerLogger -             final Matcher<View> parentMatcher, final int position) {
+INFO  org.jan.CompilerLogger -                           ^
+INFO  org.jan.CompilerLogger -   symbol:   class View
+INFO  org.jan.CompilerLogger -   location: class AuthenticationActivityTest
+INFO  org.jan.CompilerLogger - C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\src\androidTest\java\com\whatEver\iitnstu\AuthenticationActivityTest.java:76: error: cannot find symbol
+INFO  org.jan.CompilerLogger -     private static Matcher<View> childAtPosition(
+INFO  org.jan.CompilerLogger -                    ^
+INFO  org.jan.CompilerLogger -   symbol:   class Matcher
+INFO  org.jan.CompilerLogger -   location: class AuthenticationActivityTest
+INFO  org.jan.CompilerLogger - C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\src\androidTest\java\com\whatEver\iitnstu\AuthenticationActivityTest.java:76: error: cannot find symbol
+INFO  org.jan.CompilerLogger -     private static Matcher<View> childAtPosition(
+INFO  org.jan.CompilerLogger -                            ^
+INFO  org.jan.CompilerLogger -   symbol:   class View
+INFO  org.jan.CompilerLogger -   location: class AuthenticationActivityTest
+INFO  org.jan.CompilerLogger - C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\src\main\java\com\whatEver\iitnstu\AuthenticationActivity.java:22: error: cannot find symbol
+INFO  org.jan.CompilerLogger -     private EditText email, password;
+INFO  org.jan.CompilerLogger -             ^
+INFO  org.jan.CompilerLogger -   symbol:   class EditText
+INFO  org.jan.CompilerLogger -   location: class AuthenticationActivity
+INFO  org.jan.CompilerLogger - C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\src\main\java\com\whatEver\iitnstu\AuthenticationActivity.java:23: error: cannot find symbol
+INFO  org.jan.CompilerLogger -     private Button login;
+INFO  org.jan.CompilerLogger -             ^
+INFO  org.jan.CompilerLogger -   symbol:   class Button
+INFO  org.jan.CompilerLogger -   location: class AuthenticationActivity
+INFO  org.jan.CompilerLogger - C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\src\main\java\com\whatEver\iitnstu\AuthenticationActivity.java:24: error: cannot find symbol
+INFO  org.jan.CompilerLogger -     private TextView register, guest;
+INFO  org.jan.CompilerLogger -             ^
+INFO  org.jan.CompilerLogger -   symbol:   class TextView
+INFO  org.jan.CompilerLogger -   location: class AuthenticationActivity
+INFO  org.jan.CompilerLogger - C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\src\main\java\com\whatEver\iitnstu\AuthenticationActivity.java:25: error: cannot find symbol
+INFO  org.jan.CompilerLogger -     private FirebaseAuth auth;
+INFO  org.jan.CompilerLogger -             ^
+INFO  org.jan.CompilerLogger -   symbol:   class FirebaseAuth
+INFO  org.jan.CompilerLogger -   location: class AuthenticationActivity
+INFO  org.jan.CompilerLogger - C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\src\main\java\com\whatEver\iitnstu\AuthenticationActivity.java:29: error: cannot find symbol
+INFO  org.jan.CompilerLogger -     protected void onCreate(Bundle savedInstanceState) {
+INFO  org.jan.CompilerLogger -                             ^
+INFO  org.jan.CompilerLogger -   symbol:   class Bundle
+INFO  org.jan.CompilerLogger -   location: class AuthenticationActivity
+INFO  org.jan.CompilerLogger - C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\src\androidTest\java\com\whatEver\iitnstu\ExampleInstrumentedTest.java:3: error: package android.content does not exist
+INFO  org.jan.CompilerLogger - import android.content.Context;
+INFO  org.jan.CompilerLogger -                       ^
+INFO  org.jan.CompilerLogger - C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\src\androidTest\java\com\whatEver\iitnstu\ExampleInstrumentedTest.java:5: error: package androidx.test.platform.app does not exist
+INFO  org.jan.CompilerLogger - import androidx.test.platform.app.InstrumentationRegistry;
+INFO  org.jan.CompilerLogger -                                  ^
+INFO  org.jan.CompilerLogger - C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\src\androidTest\java\com\whatEver\iitnstu\ExampleInstrumentedTest.java:6: error: package androidx.test.ext.junit.runners does not exist
+INFO  org.jan.CompilerLogger - import androidx.test.ext.junit.runners.AndroidJUnit4;
+INFO  org.jan.CompilerLogger -                                       ^
+INFO  org.jan.CompilerLogger - C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\src\androidTest\java\com\whatEver\iitnstu\ExampleInstrumentedTest.java:9: error: package org.junit does not exist
+INFO  org.jan.CompilerLogger - import org.junit.Test;
+INFO  org.jan.CompilerLogger -                 ^
+INFO  org.jan.CompilerLogger - C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\src\androidTest\java\com\whatEver\iitnstu\ExampleInstrumentedTest.java:10: error: package org.junit.runner does not exist
+INFO  org.jan.CompilerLogger - import org.junit.runner.RunWith;
+INFO  org.jan.CompilerLogger -                        ^
+INFO  org.jan.CompilerLogger - C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\src\androidTest\java\com\whatEver\iitnstu\ExampleInstrumentedTest.java:12: error: package org.junit does not exist
+INFO  org.jan.CompilerLogger - import static org.junit.Assert.*;
+INFO  org.jan.CompilerLogger -                        ^
+INFO  org.jan.CompilerLogger - C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\src\androidTest\java\com\whatEver\iitnstu\ExampleInstrumentedTest.java:19: error: cannot find symbol
+INFO  org.jan.CompilerLogger - @RunWith(AndroidJUnit4.class)
+INFO  org.jan.CompilerLogger -  ^
+INFO  org.jan.CompilerLogger -   symbol: class RunWith
+INFO  org.jan.CompilerLogger - C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\src\main\java\com\whatEver\iitnstu\AllCourseDetailsActivity.java:3: error: package android.os does not exist
+INFO  org.jan.CompilerLogger - import android.os.Bundle;
+INFO  org.jan.CompilerLogger -                  ^
+INFO  org.jan.CompilerLogger - C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\src\main\java\com\whatEver\iitnstu\AllCourseDetailsActivity.java:4: error: package android.widget does not exist
+INFO  org.jan.CompilerLogger - import android.widget.Toast;
+INFO  org.jan.CompilerLogger -                      ^
+INFO  org.jan.CompilerLogger - C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\src\main\java\com\whatEver\iitnstu\AllCourseDetailsActivity.java:6: error: package androidx.appcompat.app does not exist
+INFO  org.jan.CompilerLogger - import androidx.appcompat.app.AppCompatActivity;
+INFO  org.jan.CompilerLogger -                              ^
+INFO  org.jan.CompilerLogger - C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\src\main\java\com\whatEver\iitnstu\AllCourseDetailsActivity.java:8: error: cannot find symbol
+INFO  org.jan.CompilerLogger - import com.github.barteksc.pdfviewer.PDFView;
+INFO  org.jan.CompilerLogger -                                     ^
+INFO  org.jan.CompilerLogger -   symbol:   class PDFView
+INFO  org.jan.CompilerLogger -   location: package com.github.barteksc.pdfviewer
+INFO  org.jan.CompilerLogger - C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\src\main\java\com\whatEver\iitnstu\AllCourseDetailsActivity.java:9: error: cannot find symbol
+INFO  org.jan.CompilerLogger - import com.google.firebase.storage.FirebaseStorage;
+INFO  org.jan.CompilerLogger -                                   ^
+INFO  org.jan.CompilerLogger -   symbol:   class FirebaseStorage
+INFO  org.jan.CompilerLogger -   location: package com.google.firebase.storage
+INFO  org.jan.CompilerLogger - C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\src\main\java\com\whatEver\iitnstu\AllCourseDetailsActivity.java:16: error: cannot find symbol
+INFO  org.jan.CompilerLogger - public class AllCourseDetailsActivity extends AppCompatActivity {
+INFO  org.jan.CompilerLogger -                                               ^
+INFO  org.jan.CompilerLogger -   symbol: class AppCompatActivity
+INFO  org.jan.CompilerLogger - C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\src\main\java\com\whatEver\iitnstu\AllCourseDetailsActivity.java:18: error: cannot find symbol
+INFO  org.jan.CompilerLogger -     private PDFView pdfView;
+INFO  org.jan.CompilerLogger -             ^
+INFO  org.jan.CompilerLogger -   symbol:   class PDFView
+INFO  org.jan.CompilerLogger -   location: class AllCourseDetailsActivity
+INFO  org.jan.CompilerLogger - C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\src\main\java\com\whatEver\iitnstu\tools\LoadingDialog.java:3: error: package android.app does not exist
+INFO  org.jan.CompilerLogger - import android.app.Activity;
+INFO  org.jan.CompilerLogger -                   ^
+INFO  org.jan.CompilerLogger - C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\src\main\java\com\whatEver\iitnstu\tools\LoadingDialog.java:4: error: package android.app does not exist
+INFO  org.jan.CompilerLogger - import android.app.AlertDialog;
+INFO  org.jan.CompilerLogger -                   ^
+INFO  org.jan.CompilerLogger - C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\src\main\java\com\whatEver\iitnstu\tools\LoadingDialog.java:5: error: package android.view does not exist
+INFO  org.jan.CompilerLogger - import android.view.LayoutInflater;
+INFO  org.jan.CompilerLogger -                    ^
+INFO  org.jan.CompilerLogger - C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\src\main\java\com\whatEver\iitnstu\AllCourseDetailsActivity.java:22: error: cannot find symbol
+INFO  org.jan.CompilerLogger -     protected void onCreate(Bundle savedInstanceState) {
+INFO  org.jan.CompilerLogger -                             ^
+INFO  org.jan.CompilerLogger -   symbol:   class Bundle
+INFO  org.jan.CompilerLogger -   location: class AllCourseDetailsActivity
+INFO  org.jan.CompilerLogger - C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\src\main\java\com\whatEver\iitnstu\tools\LoadingDialog.java:15: error: cannot find symbol
+INFO  org.jan.CompilerLogger -     private Activity activity;
+INFO  org.jan.CompilerLogger -             ^
+INFO  org.jan.CompilerLogger -   symbol:   class Activity
+INFO  org.jan.CompilerLogger -   location: class LoadingDialog
+INFO  org.jan.CompilerLogger - C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\src\main\java\com\whatEver\iitnstu\tools\LoadingDialog.java:16: error: cannot find symbol
+INFO  org.jan.CompilerLogger -     private AlertDialog alertDialog;
+INFO  org.jan.CompilerLogger -             ^
+INFO  org.jan.CompilerLogger -   symbol:   class AlertDialog
+INFO  org.jan.CompilerLogger -   location: class LoadingDialog
+INFO  org.jan.CompilerLogger - C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\src\main\java\com\whatEver\iitnstu\tools\LoadingDialog.java:23: error: cannot find symbol
+INFO  org.jan.CompilerLogger -     public LoadingDialog(Activity activity) {
+INFO  org.jan.CompilerLogger -                          ^
+INFO  org.jan.CompilerLogger -   symbol:   class Activity
+INFO  org.jan.CompilerLogger -   location: class LoadingDialog
+INFO  org.jan.CompilerLogger - C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\src\main\java\com\whatEver\iitnstu\cards\BatchCard.java:4: error: package android.content does not exist
+INFO  org.jan.CompilerLogger - import android.content.Context;
+INFO  org.jan.CompilerLogger -                       ^
+INFO  org.jan.CompilerLogger - C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\src\main\java\com\whatEver\iitnstu\cards\BatchCard.java:5: error: package android.content does not exist
+INFO  org.jan.CompilerLogger - import android.content.Intent;
+INFO  org.jan.CompilerLogger -                       ^
+INFO  org.jan.CompilerLogger - C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\src\main\java\com\whatEver\iitnstu\cards\BatchCard.java:6: error: package android.view does not exist
+INFO  org.jan.CompilerLogger - import android.view.LayoutInflater;
+INFO  org.jan.CompilerLogger -                    ^
+INFO  org.jan.CompilerLogger - C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\src\main\java\com\whatEver\iitnstu\cards\BatchCard.java:7: error: package android.widget does not exist
+INFO  org.jan.CompilerLogger - import android.widget.ImageView;
+INFO  org.jan.CompilerLogger -                      ^
+INFO  org.jan.CompilerLogger - C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\src\main\java\com\whatEver\iitnstu\cards\BatchCard.java:8: error: package android.widget does not exist
+INFO  org.jan.CompilerLogger - import android.widget.LinearLayout;
+INFO  org.jan.CompilerLogger -                      ^
+INFO  org.jan.CompilerLogger - C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\src\main\java\com\whatEver\iitnstu\cards\BatchCard.java:9: error: package android.widget does not exist
+INFO  org.jan.CompilerLogger - import android.widget.TextView;
+INFO  org.jan.CompilerLogger -                      ^
+INFO  org.jan.CompilerLogger - C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\src\main\java\com\whatEver\iitnstu\cards\Card.java:4: error: package android.content does not exist
+INFO  org.jan.CompilerLogger - import android.content.Context;
+INFO  org.jan.CompilerLogger -                       ^
+INFO  org.jan.CompilerLogger - C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\src\main\java\com\whatEver\iitnstu\cards\Card.java:5: error: package android.widget does not exist
+INFO  org.jan.CompilerLogger - import android.widget.FrameLayout;
+INFO  org.jan.CompilerLogger -                      ^
+INFO  org.jan.CompilerLogger - C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\src\main\java\com\whatEver\iitnstu\cards\Card.java:13: error: cannot find symbol
+INFO  org.jan.CompilerLogger - public abstract class Card extends FrameLayout {
+INFO  org.jan.CompilerLogger -                                    ^
+INFO  org.jan.CompilerLogger -   symbol: class FrameLayout
+INFO  org.jan.CompilerLogger - C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\src\main\java\com\whatEver\iitnstu\cards\BatchCard.java:22: error: cannot find symbol
+INFO  org.jan.CompilerLogger -     private Context context;
+INFO  org.jan.CompilerLogger -             ^
+INFO  org.jan.CompilerLogger -   symbol:   class Context
+INFO  org.jan.CompilerLogger -   location: class BatchCard
+INFO  org.jan.CompilerLogger - C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\src\main\java\com\whatEver\iitnstu\cards\BatchCard.java:24: error: cannot find symbol
+INFO  org.jan.CompilerLogger -     private LinearLayout linearLayout;
+INFO  org.jan.CompilerLogger -             ^
+INFO  org.jan.CompilerLogger -   symbol:   class LinearLayout
+INFO  org.jan.CompilerLogger -   location: class BatchCard
+INFO  org.jan.CompilerLogger - C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\src\main\java\com\whatEver\iitnstu\cards\BatchCard.java:25: error: cannot find symbol
+INFO  org.jan.CompilerLogger -     private ImageView imageView;
+INFO  org.jan.CompilerLogger -             ^
+INFO  org.jan.CompilerLogger -   symbol:   class ImageView
+INFO  org.jan.CompilerLogger -   location: class BatchCard
+INFO  org.jan.CompilerLogger - C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\src\main\java\com\whatEver\iitnstu\cards\BatchCard.java:26: error: cannot find symbol
+INFO  org.jan.CompilerLogger -     private TextView batchName;
+INFO  org.jan.CompilerLogger -             ^
+INFO  org.jan.CompilerLogger -   symbol:   class TextView
+INFO  org.jan.CompilerLogger -   location: class BatchCard
+INFO  org.jan.CompilerLogger - C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\src\main\java\com\whatEver\iitnstu\cards\BatchCard.java:34: error: cannot find symbol
+INFO  org.jan.CompilerLogger -     public BatchCard(Context context) {
+INFO  org.jan.CompilerLogger -                      ^
+INFO  org.jan.CompilerLogger -   symbol:   class Context
+INFO  org.jan.CompilerLogger -   location: class BatchCard
+INFO  org.jan.CompilerLogger - C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\src\main\java\com\whatEver\iitnstu\cards\BatchCard.java:47: error: cannot find symbol
+INFO  org.jan.CompilerLogger -     public BatchCard(Context context, Batch batch) {
+INFO  org.jan.CompilerLogger -                      ^
+INFO  org.jan.CompilerLogger -   symbol:   class Context
+INFO  org.jan.CompilerLogger -   location: class BatchCard
+INFO  org.jan.CompilerLogger - C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\src\main\java\com\whatEver\iitnstu\cards\Card.java:20: error: cannot find symbol
+INFO  org.jan.CompilerLogger -     public Card(Context context) {
+INFO  org.jan.CompilerLogger -                 ^
+INFO  org.jan.CompilerLogger -   symbol:   class Context
+INFO  org.jan.CompilerLogger -   location: class Card
+INFO  org.jan.CompilerLogger - C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\src\main\java\com\whatEver\iitnstu\cards\CourseCoCard.java:3: error: package android.content does not exist
+INFO  org.jan.CompilerLogger - import android.content.Context;
+INFO  org.jan.CompilerLogger -                       ^
+INFO  org.jan.CompilerLogger - C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\src\main\java\com\whatEver\iitnstu\cards\CourseCoCard.java:4: error: package android.content does not exist
+INFO  org.jan.CompilerLogger - import android.content.Intent;
+INFO  org.jan.CompilerLogger -                       ^
+INFO  org.jan.CompilerLogger - C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\src\main\java\com\whatEver\iitnstu\cards\CourseCoCard.java:5: error: package android.net does not exist
+INFO  org.jan.CompilerLogger - import android.net.Uri;
+INFO  org.jan.CompilerLogger -                   ^
+INFO  org.jan.CompilerLogger - C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\src\main\java\com\whatEver\iitnstu\cards\CourseCoCard.java:6: error: package android.text does not exist
+INFO  org.jan.CompilerLogger - import android.text.Html;
+INFO  org.jan.CompilerLogger -                    ^
+INFO  org.jan.CompilerLogger - C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\src\main\java\com\whatEver\iitnstu\cards\CourseCoCard.java:7: error: package android.text.method does not exist
+INFO  org.jan.CompilerLogger - import android.text.method.LinkMovementMethod;
+INFO  org.jan.CompilerLogger -                           ^
+INFO  org.jan.CompilerLogger - C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\src\main\java\com\whatEver\iitnstu\cards\CourseCoCard.java:8: error: package android.view does not exist
+INFO  org.jan.CompilerLogger - import android.view.LayoutInflater;
+INFO  org.jan.CompilerLogger -                    ^
+INFO  org.jan.CompilerLogger - C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\src\main\java\com\whatEver\iitnstu\cards\CourseCoCard.java:9: error: package android.widget does not exist
+INFO  org.jan.CompilerLogger - import android.widget.ImageView;
+INFO  org.jan.CompilerLogger -                      ^
+INFO  org.jan.CompilerLogger - C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\src\main\java\com\whatEver\iitnstu\cards\CourseCoCard.java:10: error: package android.widget does not exist
+INFO  org.jan.CompilerLogger - import android.widget.LinearLayout;
+INFO  org.jan.CompilerLogger -                      ^
+INFO  org.jan.CompilerLogger - C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\src\main\java\com\whatEver\iitnstu\cards\CourseCoCard.java:11: error: package android.widget does not exist
+INFO  org.jan.CompilerLogger - import android.widget.TextView;
+INFO  org.jan.CompilerLogger -                      ^
+INFO  org.jan.Main - Rebuild trees.
+INFO  org.jan.TreeBuilder - Source file: C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\build\generated\not_namespaced_r_class_sources\debug\r\androidx\appcompat\R.java
+INFO  org.jan.TreeBuilder - Source file: C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\build\generated\not_namespaced_r_class_sources\debug\r\androidx\arch\core\R.java
+INFO  org.jan.TreeBuilder - Source file: C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\build\generated\not_namespaced_r_class_sources\debug\r\androidx\asynclayoutinflater\R.java
+INFO  org.jan.TreeBuilder - Source file: C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\build\generated\not_namespaced_r_class_sources\debug\r\androidx\cardview\R.java
+INFO  org.jan.TreeBuilder - Source file: C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\build\generated\not_namespaced_r_class_sources\debug\r\androidx\constraintlayout\widget\R.java
+INFO  org.jan.TreeBuilder - Source file: C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\build\generated\not_namespaced_r_class_sources\debug\r\androidx\coordinatorlayout\R.java
+INFO  org.jan.TreeBuilder - Source file: C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\build\generated\not_namespaced_r_class_sources\debug\r\androidx\core\R.java
+INFO  org.jan.TreeBuilder - Source file: C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\build\generated\not_namespaced_r_class_sources\debug\r\androidx\cursoradapter\R.java
+INFO  org.jan.TreeBuilder - Source file: C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\build\generated\not_namespaced_r_class_sources\debug\r\androidx\customview\R.java
+INFO  org.jan.TreeBuilder - Source file: C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\build\generated\not_namespaced_r_class_sources\debug\r\androidx\documentfile\R.java
+INFO  org.jan.TreeBuilder - Source file: C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\build\generated\not_namespaced_r_class_sources\debug\r\androidx\drawerlayout\R.java
+INFO  org.jan.TreeBuilder - Source file: C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\build\generated\not_namespaced_r_class_sources\debug\r\androidx\exifinterface\R.java
+INFO  org.jan.TreeBuilder - Source file: C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\build\generated\not_namespaced_r_class_sources\debug\r\androidx\fragment\R.java
+INFO  org.jan.TreeBuilder - Source file: C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\build\generated\not_namespaced_r_class_sources\debug\r\androidx\gridlayout\R.java
+INFO  org.jan.TreeBuilder - Source file: C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\build\generated\not_namespaced_r_class_sources\debug\r\androidx\interpolator\R.java
+INFO  org.jan.TreeBuilder - Source file: C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\build\generated\not_namespaced_r_class_sources\debug\r\androidx\legacy\coreui\R.java
+INFO  org.jan.TreeBuilder - Source file: C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\build\generated\not_namespaced_r_class_sources\debug\r\androidx\legacy\coreutils\R.java
+INFO  org.jan.TreeBuilder - Source file: C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\build\generated\not_namespaced_r_class_sources\debug\r\androidx\legacy\v4\R.java
+INFO  org.jan.TreeBuilder - Source file: C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\build\generated\not_namespaced_r_class_sources\debug\r\androidx\lifecycle\extensions\R.java
+INFO  org.jan.TreeBuilder - Source file: C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\build\generated\not_namespaced_r_class_sources\debug\r\androidx\lifecycle\livedata\core\R.java
+INFO  org.jan.TreeBuilder - Source file: C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\build\generated\not_namespaced_r_class_sources\debug\r\androidx\lifecycle\livedata\R.java
+INFO  org.jan.TreeBuilder - Source file: C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\build\generated\not_namespaced_r_class_sources\debug\r\androidx\lifecycle\process\R.java
+INFO  org.jan.TreeBuilder - Source file: C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\build\generated\not_namespaced_r_class_sources\debug\r\androidx\lifecycle\R.java
+INFO  org.jan.TreeBuilder - Source file: C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\build\generated\not_namespaced_r_class_sources\debug\r\androidx\lifecycle\service\R.java
+INFO  org.jan.TreeBuilder - Source file: C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\build\generated\not_namespaced_r_class_sources\debug\r\androidx\lifecycle\viewmodel\R.java
+INFO  org.jan.TreeBuilder - Source file: C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\build\generated\not_namespaced_r_class_sources\debug\r\androidx\loader\R.java
+INFO  org.jan.TreeBuilder - Source file: C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\build\generated\not_namespaced_r_class_sources\debug\r\androidx\localbroadcastmanager\R.java
+INFO  org.jan.TreeBuilder - Source file: C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\build\generated\not_namespaced_r_class_sources\debug\r\androidx\media\R.java
+INFO  org.jan.TreeBuilder - Source file: C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\build\generated\not_namespaced_r_class_sources\debug\r\androidx\print\R.java
+INFO  org.jan.TreeBuilder - Source file: C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\build\generated\not_namespaced_r_class_sources\debug\r\androidx\recyclerview\R.java
+INFO  org.jan.TreeBuilder - Source file: C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\build\generated\not_namespaced_r_class_sources\debug\r\androidx\slidingpanelayout\R.java
+INFO  org.jan.TreeBuilder - Source file: C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\build\generated\not_namespaced_r_class_sources\debug\r\androidx\swiperefreshlayout\R.java
+INFO  org.jan.TreeBuilder - Source file: C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\build\generated\not_namespaced_r_class_sources\debug\r\androidx\transition\R.java
+INFO  org.jan.TreeBuilder - Source file: C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\build\generated\not_namespaced_r_class_sources\debug\r\androidx\vectordrawable\R.java
+INFO  org.jan.TreeBuilder - Source file: C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\build\generated\not_namespaced_r_class_sources\debug\r\androidx\versionedparcelable\R.java
+INFO  org.jan.TreeBuilder - Source file: C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\build\generated\not_namespaced_r_class_sources\debug\r\androidx\viewpager\R.java
+INFO  org.jan.TreeBuilder - Source file: C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\build\generated\not_namespaced_r_class_sources\debug\r\com\github\barteksc\pdfviewer\R.java
+INFO  org.jan.TreeBuilder - Source file: C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\build\generated\not_namespaced_r_class_sources\debug\r\com\google\android\gms\base\R.java
+INFO  org.jan.TreeBuilder - Source file: C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\build\generated\not_namespaced_r_class_sources\debug\r\com\google\android\gms\common\R.java
+INFO  org.jan.TreeBuilder - Source file: C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\build\generated\not_namespaced_r_class_sources\debug\r\com\google\android\gms\flags\R.java
+INFO  org.jan.TreeBuilder - Source file: C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\build\generated\not_namespaced_r_class_sources\debug\r\com\google\android\gms\tasks\R.java
+INFO  org.jan.TreeBuilder - Source file: C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\build\generated\not_namespaced_r_class_sources\debug\r\com\google\android\material\R.java
+INFO  org.jan.TreeBuilder - Source file: C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\build\generated\not_namespaced_r_class_sources\debug\r\com\google\firebase\auth\internal\R.java
+INFO  org.jan.TreeBuilder - Source file: C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\build\generated\not_namespaced_r_class_sources\debug\r\com\google\firebase\auth\R.java
+INFO  org.jan.TreeBuilder - Source file: C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\build\generated\not_namespaced_r_class_sources\debug\r\com\google\firebase\database\collection\R.java
+INFO  org.jan.TreeBuilder - Source file: C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\build\generated\not_namespaced_r_class_sources\debug\r\com\google\firebase\firestore\R.java
+INFO  org.jan.TreeBuilder - Source file: C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\build\generated\not_namespaced_r_class_sources\debug\r\com\google\firebase\R.java
+INFO  org.jan.TreeBuilder - Source file: C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\build\generated\not_namespaced_r_class_sources\debug\r\com\google\firebase\storage\R.java
+INFO  org.jan.TreeBuilder - Source file: C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\build\generated\not_namespaced_r_class_sources\debug\r\com\gun0912\tedpermission\R.java
+INFO  org.jan.TreeBuilder - Source file: C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\build\generated\not_namespaced_r_class_sources\debug\r\com\mikhaellopez\circularimageview\R.java
+INFO  org.jan.TreeBuilder - Source file: C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\build\generated\not_namespaced_r_class_sources\debug\r\com\shockwave\pdfium\R.java
+INFO  org.jan.TreeBuilder - Source file: C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\build\generated\not_namespaced_r_class_sources\debug\r\com\squareup\picasso\R.java
+INFO  org.jan.TreeBuilder - Source file: C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\build\generated\not_namespaced_r_class_sources\debug\r\com\whatEver\iitnstu\R.java
+INFO  org.jan.TreeBuilder - Source file: C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\build\generated\not_namespaced_r_class_sources\debug\r\firebase\com\protolitewrapper\R.java
+INFO  org.jan.TreeBuilder - Source file: C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\build\generated\source\buildConfig\debug\com\whatEver\iitnstu\BuildConfig.java
+INFO  org.jan.TreeBuilder - Source file: C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\src\androidTest\java\com\whatEver\iitnstu\AuthenticationActivityTest.java
+INFO  org.jan.TreeBuilder - Source file: C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\src\androidTest\java\com\whatEver\iitnstu\ExampleInstrumentedTest.java
+INFO  org.jan.TreeBuilder - Source file: C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\src\main\java\com\whatEver\iitnstu\AllCourseDetailsActivity.java
+INFO  org.jan.TreeBuilder - Source file: C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\src\main\java\com\whatEver\iitnstu\AuthenticationActivity.java
+INFO  org.jan.TreeBuilder - Source file: C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\src\main\java\com\whatEver\iitnstu\cards\BatchCard.java
+INFO  org.jan.TreeBuilder - Source file: C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\src\main\java\com\whatEver\iitnstu\cards\Card.java
+INFO  org.jan.TreeBuilder - Source file: C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\src\main\java\com\whatEver\iitnstu\cards\CourseCoCard.java
+INFO  org.jan.TreeBuilder - Source file: C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\src\main\java\com\whatEver\iitnstu\cards\NoticeCard.java
+INFO  org.jan.TreeBuilder - Source file: C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\src\main\java\com\whatEver\iitnstu\cards\OfficialsCard.java
+INFO  org.jan.TreeBuilder - Source file: C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\src\main\java\com\whatEver\iitnstu\cards\StudentCard.java
+INFO  org.jan.TreeBuilder - Source file: C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\src\main\java\com\whatEver\iitnstu\cards\TeacherCard.java
+INFO  org.jan.TreeBuilder - Source file: C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\src\main\java\com\whatEver\iitnstu\CourseCoordinatorActivity.java
+INFO  org.jan.TreeBuilder - Source file: C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\src\main\java\com\whatEver\iitnstu\DevelopersActivity.java
+INFO  org.jan.TreeBuilder - Source file: C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\src\main\java\com\whatEver\iitnstu\DirectorProfileActivity.java
+INFO  org.jan.TreeBuilder - Source file: C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\src\main\java\com\whatEver\iitnstu\HomeActivity.java
+INFO  org.jan.TreeBuilder - Source file: C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\src\main\java\com\whatEver\iitnstu\IntroActivity.java
+INFO  org.jan.TreeBuilder - Source file: C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\src\main\java\com\whatEver\iitnstu\MainActivity.java
+INFO  org.jan.TreeBuilder - Source file: C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\src\main\java\com\whatEver\iitnstu\models\Batch.java
+INFO  org.jan.TreeBuilder - Source file: C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\src\main\java\com\whatEver\iitnstu\models\CourseCo.java
+INFO  org.jan.TreeBuilder - Source file: C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\src\main\java\com\whatEver\iitnstu\models\Notice.java
+INFO  org.jan.TreeBuilder - Source file: C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\src\main\java\com\whatEver\iitnstu\models\Official.java
+INFO  org.jan.TreeBuilder - Source file: C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\src\main\java\com\whatEver\iitnstu\models\Student.java
+INFO  org.jan.TreeBuilder - Source file: C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\src\main\java\com\whatEver\iitnstu\models\Teacher.java
+INFO  org.jan.TreeBuilder - Source file: C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\src\main\java\com\whatEver\iitnstu\NoticeBoardActivity.java
+INFO  org.jan.TreeBuilder - Source file: C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\src\main\java\com\whatEver\iitnstu\OfficialsActivity.java
+INFO  org.jan.TreeBuilder - Source file: C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\src\main\java\com\whatEver\iitnstu\ProfileActivity.java
+INFO  org.jan.TreeBuilder - Source file: C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\src\main\java\com\whatEver\iitnstu\RegisterUserActivity.java
+INFO  org.jan.TreeBuilder - Source file: C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\src\main\java\com\whatEver\iitnstu\SearchActivity.java
+INFO  org.jan.TreeBuilder - Source file: C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\src\main\java\com\whatEver\iitnstu\StudentAdapterActivity.java
+INFO  org.jan.TreeBuilder - Source file: C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\src\main\java\com\whatEver\iitnstu\StudentInfoActivity.java
+INFO  org.jan.TreeBuilder - Source file: C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\src\main\java\com\whatEver\iitnstu\SyllabusActivity.java
+INFO  org.jan.TreeBuilder - Source file: C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\src\main\java\com\whatEver\iitnstu\TeachersInfoActivity.java
+INFO  org.jan.TreeBuilder - Source file: C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\src\main\java\com\whatEver\iitnstu\tools\LoadingDialog.java
+INFO  org.jan.TreeBuilder - Source file: C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\src\main\java\com\whatEver\iitnstu\tools\PdfViewer.java
+INFO  org.jan.TreeBuilder - Source file: C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\src\test\java\com\whatEver\iitnstu\ExampleUnitTest.java
+INFO  org.jan.Main - Build comments.
+INFO  org.jan.Main - Create external classes.
+INFO  org.jan.ExternalClassBuilder - First round in external class builder
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.lang.Object
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.lang.Deprecated
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.lang.Boolean
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.lang.String
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.lang.String.CaseInsensitiveComparator
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.lang.Override
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.lang.Void
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.util.HashMap
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.util.HashMap.TreeNode
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.util.HashMap.EntrySpliterator
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.util.HashMap.ValueSpliterator
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.util.HashMap.KeySpliterator
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.util.HashMap.HashMapSpliterator
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.util.HashMap.EntryIterator
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.util.HashMap.ValueIterator
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.util.HashMap.KeyIterator
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.util.HashMap.HashIterator
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.util.HashMap.UnsafeHolder
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.util.HashMap.EntrySet
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.util.HashMap.Values
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.util.HashMap.KeySet
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.util.HashMap.Node
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.util.List
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.time.LocalDate
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.util.ArrayList
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.util.ArrayList.ArrayListSpliterator
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.util.ArrayList.SubList
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.util.ArrayList.ListItr
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.util.ArrayList.Itr
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.util.Collections
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.util.Collections.AsLIFOQueue
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.util.Collections.SetFromMap
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.util.Collections.ReverseComparator2
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.util.Collections.ReverseComparator
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.util.Collections.CopiesList
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.util.Collections.SingletonMap
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.util.Collections.SingletonList
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.util.Collections.SingletonSet
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.util.Collections.EmptyMap
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.util.Collections.EmptyList
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.util.Collections.EmptySet
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.util.Collections.EmptyEnumeration
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.util.Collections.EmptyListIterator
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.util.Collections.EmptyIterator
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.util.Collections.CheckedNavigableMap
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.util.Collections.CheckedSortedMap
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.util.Collections.CheckedMap
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.util.Collections.CheckedMap.CheckedEntrySet
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.util.Collections.CheckedMap.CheckedEntrySet.CheckedEntry
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.util.Collections.CheckedRandomAccessList
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.util.Collections.CheckedList
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.util.Collections.CheckedNavigableSet
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.util.Collections.CheckedSortedSet
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.util.Collections.CheckedSet
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.util.Collections.CheckedQueue
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.util.Collections.CheckedCollection
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.util.Collections.SynchronizedNavigableMap
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.util.Collections.SynchronizedSortedMap
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.util.Collections.SynchronizedMap
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.util.Collections.SynchronizedRandomAccessList
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.util.Collections.SynchronizedList
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.util.Collections.SynchronizedNavigableSet
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.util.Collections.SynchronizedSortedSet
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.util.Collections.SynchronizedSet
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.util.Collections.SynchronizedCollection
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.util.Collections.UnmodifiableNavigableMap
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.util.Collections.UnmodifiableNavigableMap.EmptyNavigableMap
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.util.Collections.UnmodifiableSortedMap
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.util.Collections.UnmodifiableMap
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.util.Collections.UnmodifiableMap.UnmodifiableEntrySet
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.util.Collections.UnmodifiableMap.UnmodifiableEntrySet.UnmodifiableEntry
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.util.Collections.UnmodifiableMap.UnmodifiableEntrySet.UnmodifiableEntrySetSpliterator
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.util.Collections.UnmodifiableRandomAccessList
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.util.Collections.UnmodifiableList
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.util.Collections.UnmodifiableNavigableSet
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.util.Collections.UnmodifiableNavigableSet.EmptyNavigableSet
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.util.Collections.UnmodifiableSortedSet
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.util.Collections.UnmodifiableSet
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.util.Collections.UnmodifiableCollection
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.util.Comparator
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.util.Date
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.util.Vector
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.util.Vector.VectorSpliterator
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.util.Vector.ListItr
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.util.Vector.Itr
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.lang.Integer
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.lang.Integer.IntegerCache
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.lang.NullPointerException
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.util.regex.Matcher
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.util.regex.Matcher.ImmutableMatchResult
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.util.regex.Pattern
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.util.regex.Pattern.BmpCharPredicate
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.util.regex.Pattern.CharPredicate
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.util.regex.Pattern.BnMS
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.util.regex.Pattern.BnM
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.util.regex.Pattern.Bound
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.util.regex.Pattern.NotBehindS
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.util.regex.Pattern.NotBehind
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.util.regex.Pattern.BehindS
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.util.regex.Pattern.Behind
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.util.regex.Pattern.Neg
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.util.regex.Pattern.Pos
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.util.regex.Pattern.Conditional
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.util.regex.Pattern.First
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.util.regex.Pattern.CIBackRef
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.util.regex.Pattern.BackRef
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.util.regex.Pattern.LazyLoop
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.util.regex.Pattern.Loop
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.util.regex.Pattern.Prolog
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.util.regex.Pattern.GroupTail
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.util.regex.Pattern.GroupRef
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.util.regex.Pattern.GroupHead
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.util.regex.Pattern.Branch
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.util.regex.Pattern.BranchConn
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.util.regex.Pattern.GroupCurly
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.util.regex.Pattern.Curly
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.util.regex.Pattern.BmpCharPropertyGreedy
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.util.regex.Pattern.CharPropertyGreedy
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.util.regex.Pattern.Ques
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.util.regex.Pattern.SliceUS
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.util.regex.Pattern.SliceIS
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.util.regex.Pattern.SliceS
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.util.regex.Pattern.SliceU
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.util.regex.Pattern.SliceI
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.util.regex.Pattern.Slice
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.util.regex.Pattern.SliceNode
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.util.regex.Pattern.GraphemeBound
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.util.regex.Pattern.XGrapheme
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.util.regex.Pattern.NFCCharProperty
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.util.regex.Pattern.BmpCharProperty
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.util.regex.Pattern.CharProperty
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.util.regex.Pattern.LineEnding
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.util.regex.Pattern.UnixDollar
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.util.regex.Pattern.Dollar
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.util.regex.Pattern.LastMatch
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.util.regex.Pattern.UnixCaret
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.util.regex.Pattern.Caret
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.util.regex.Pattern.End
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.util.regex.Pattern.Begin
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.util.regex.Pattern.StartS
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.util.regex.Pattern.Start
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.util.regex.Pattern.LastNode
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.util.regex.Pattern.Node
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.util.regex.Pattern.BitClass
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.util.regex.Pattern.Qtype
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.util.regex.Pattern.TreeInfo
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.lang.Thread
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.lang.Thread.WeakClassKey
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.lang.Thread.UncaughtExceptionHandler
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.lang.Thread.State
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.lang.Thread.Caches
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.lang.InterruptedException
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.lang.CharSequence
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.util.AbstractMap
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.util.AbstractMap.SimpleImmutableEntry
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.util.AbstractMap.SimpleEntry
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.lang.Throwable
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.lang.Throwable.WrappedPrintWriter
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.lang.Throwable.WrappedPrintStream
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.lang.Throwable.PrintStreamOrWriter
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.lang.Throwable.SentinelHolder
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.util.Set
+INFO  org.jan.ExternalClassBuilder - Next round in external class builder
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: jdk.internal.HotSpotIntrinsicCandidate
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.lang.Class
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.lang.CloneNotSupportedException
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.lang.annotation.Annotation
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.lang.annotation.Documented
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.lang.annotation.Retention
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.lang.annotation.RetentionPolicy
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.lang.annotation.Target
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.lang.annotation.ElementType
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.io.Serializable
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.lang.Comparable
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: jdk.internal.vm.annotation.Stable
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.io.ObjectStreamField
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.io.UnsupportedEncodingException
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.nio.charset.Charset
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.lang.StringBuffer
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.lang.StringBuilder
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.lang.AbstractStringBuilder
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.lang.Iterable
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.util.Locale
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.util.stream.Stream
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.util.stream.IntStream
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.util.Map
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.util.Map.Entry
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.lang.Cloneable
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.util.LinkedHashMap.Entry
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.util.LinkedHashMap
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.util.Spliterator
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.util.Spliterator.OfDouble
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.util.Spliterator.OfLong
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.util.Spliterator.OfInt
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.util.Spliterator.OfPrimitive
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.util.function.Consumer
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.util.Iterator
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: jdk.internal.misc.Unsafe
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.util.AbstractSet
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.util.AbstractCollection
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.util.Collection
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.util.function.Function
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.util.function.BiFunction
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.util.function.BiConsumer
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.io.IOException
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.io.ObjectOutputStream
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.lang.ClassNotFoundException
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.io.ObjectInputStream
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.util.function.UnaryOperator
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.util.ListIterator
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.lang.SafeVarargs
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.time.temporal.Temporal
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.time.temporal.TemporalAdjuster
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.time.chrono.ChronoLocalDate
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.time.ZoneId
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.time.Clock
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.time.Month
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.time.Instant
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.time.temporal.TemporalAccessor
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.time.format.DateTimeFormatter
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.time.temporal.TemporalField
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.time.temporal.TemporalUnit
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.time.temporal.ValueRange
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.time.chrono.IsoChronology
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.time.chrono.IsoEra
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.time.DayOfWeek
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.time.temporal.TemporalAmount
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.time.temporal.TemporalQuery
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.time.Period
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.time.LocalTime
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.time.LocalDateTime
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.time.OffsetTime
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.time.OffsetDateTime
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.time.ZonedDateTime
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.time.ZoneOffset
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.io.InvalidObjectException
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.io.DataOutput
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.io.DataInput
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.util.AbstractList
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.util.AbstractList.RandomAccessSubList
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.util.AbstractList.SubList
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.util.AbstractList.RandomAccessSpliterator
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.util.AbstractList.ListItr
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.util.AbstractList.Itr
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.util.RandomAccess
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.util.function.Predicate
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.util.AbstractQueue
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.util.Queue
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.util.Deque
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.util.function.IntFunction
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.util.Enumeration
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.util.NavigableMap
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.util.NavigableSet
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.util.SortedMap
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.util.SortedSet
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.util.Random
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.util.function.ToIntFunction
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.util.function.ToLongFunction
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.util.function.ToDoubleFunction
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.lang.FunctionalInterface
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: sun.util.calendar.BaseCalendar
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: sun.util.calendar.BaseCalendar.Date
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.lang.Number
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.lang.NumberFormatException
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.lang.RuntimeException
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.util.regex.MatchResult
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.util.regex.IntHashSet
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.lang.Enum
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.util.regex.PatternSyntaxException
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.lang.Runnable
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.lang.ref.WeakReference
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.lang.ref.ReferenceQueue
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.util.concurrent.ConcurrentMap
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.lang.ThreadGroup
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.lang.ClassLoader
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.security.AccessControlContext
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.lang.ThreadLocal.ThreadLocalMap
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.lang.ThreadLocal
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: sun.nio.ch.Interruptible
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.lang.StackTraceElement
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: jdk.internal.vm.annotation.Contended
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: jdk.internal.reflect.CallerSensitive
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.lang.Exception
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.io.PrintWriter
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.io.PrintStream
+INFO  org.jan.ExternalClassBuilder - Next round in external class builder
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.lang.reflect.GenericDeclaration
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.lang.reflect.Type
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.lang.reflect.AnnotatedElement
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.lang.Appendable
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.util.stream.BaseStream
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.lang.Double
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.util.function.DoubleConsumer
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.lang.Long
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.util.function.LongConsumer
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.util.function.IntConsumer
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.io.OutputStream
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.io.ObjectOutput
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.io.ObjectStreamConstants
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.lang.ReflectiveOperationException
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.io.InputStream
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.io.ObjectInput
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.time.chrono.Chronology
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.time.chrono.Era
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.time.chrono.ChronoPeriod
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.time.chrono.ChronoLocalDateTime
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.time.chrono.AbstractChronology
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.time.chrono.ChronoZonedDateTime
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.io.ObjectStreamException
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: sun.util.calendar.AbstractCalendar
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: sun.util.calendar.CalendarDate
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.lang.IllegalArgumentException
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.lang.ref.Reference
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.lang.ref.Reference.ReferenceHandler
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.io.Writer
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.io.FilterOutputStream
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.io.Closeable
+INFO  org.jan.ExternalClassBuilder - Next round in external class builder
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.lang.AutoCloseable
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: java.io.Flushable
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: sun.util.calendar.CalendarSystem
+INFO  org.jan.ExternalClassBuilder - Building external type declaration: jdk.internal.vm.annotation.ForceInline
+INFO  org.jan.Main - Set crossedges.
+INFO  org.jan.Main - Build types.
+INFO  org.jan.Main - Filter.
+INFO  org.jan.Main - Save jsi.
+INFO  org.jan.ClassSaver - Saved file timestamp: 1677936424615
+INFO  org.jan.Main - CPU times (s):
+INFO  org.jan.Main -   Total time: 5.531
+INFO  org.jan.Main -   JDK compile time: 3.75
+INFO  org.jan.Main -   Tree rebuilding time: 0.484
+INFO  org.jan.Main -   Comment building time: 0.156
+INFO  org.jan.Main -   External class building time: 0.093
+INFO  org.jan.Main -   Crossedge setting time: 0.062
+INFO  org.jan.Main -   Type building time: 0.062
+INFO  org.jan.Main -   ASG checking time: 0.0
+INFO  org.jan.Main -   Filter generating time: 0.031
+INFO  org.jan.Main -   Common jsi saving time: 0.14
+INFO  org.jan.Main -   Common jml saving time: 0.0
+INFO  org.jan.Main -   Small jsi saving time: 0.0
+INFO  org.jan.Main - User times (s):
+INFO  org.jan.Main -   Total time: 4.656
+INFO  org.jan.Main -   JDK compile time: 3.484
+INFO  org.jan.Main -   Tree rebuilding time: 0.484
+INFO  org.jan.Main -   Comment building time: 0.14
+INFO  org.jan.Main -   External class building time: 0.078
+INFO  org.jan.Main -   Crossedge setting time: 0.062
+INFO  org.jan.Main -   Type building time: 0.062
+INFO  org.jan.Main -   ASG checking time: 0.0
+INFO  org.jan.Main -   Filter generating time: 0.031
+INFO  org.jan.Main -   Common jsi saving time: 0.125
+INFO  org.jan.Main -   Common jml saving time: 0.0
+INFO  org.jan.Main -   Small jsi saving time: 0.0
+INFO  org.jan.Main - Memory statistics:
+INFO  org.jan.Main -   Max total memory: 635 MB
+INFO  org.jan.Main -   Max used memory: 185 MB
+INFO  org.jan.Main - Other statistics:
+INFO  org.jan.Main -   Analyzed files: 90
+INFO  org.jan.Main -   Warnings: 0
+INFO  org.jan.Main -   Errors: 0
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RuleSetFactory parseRuleSetReferenceNode
+WARNING: Unable to exclude rules [InvalidSlf4jMessageFormat, DoNotCallSystemExit] from ruleset reference category/java/errorprone.xml; perhaps the rule name is misspelled or the rule doesn't exist anymore?
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule ImportFromSamePackage
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule TooFewBranchesForASwitchStatement
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule EmptySynchronizedBlock
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule PackageCase
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule UnnecessaryCast
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule UseStringBufferForStringAppends
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule EqualsNull
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule DuplicateImports
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule CloneMethodMustBePublic
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule UseNotifyAllInsteadOfNotify
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule ClassWithOnlyPrivateConstructorsShouldBeFinal
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule DontUseFloatTypeForLoopIndices
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule UnusedAssignment
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule RedundantFieldInitializer
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule AvoidProtectedMethodInFinalClassNotExtending
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule UseUnderscoresInNumericLiterals
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule MisplacedNullCheck
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule SystemPrintln
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule ShortMethodName
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule CollapsibleIfStatements
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule FinalizeDoesNotCallSuperFinalize
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule ConsecutiveLiteralAppends
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule UseArraysAsList
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule DoNotThrowExceptionInFinally
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule JUnitTestContainsTooManyAsserts
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule MissingOverride
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule AvoidBranchingStatementAsLastInLoop
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule BigIntegerInstantiation
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule HardCodedCryptoKey
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule ProperLogger
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule AvoidCatchingGenericException
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule SimplifyBooleanReturns
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule ReturnFromFinallyBlock
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule ForLoopShouldBeWhileLoop
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule CloneMethodMustImplementCloneable
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule AvoidInstanceofChecksInCatchClause
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule SimplifiedTernary
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule AvoidUsingOctalValues
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule AvoidFileStream
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule DataClass
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule ForLoopCanBeForeach
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule UseShortArrayInitializer
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule AvoidUsingNativeCode
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule MDBAndSessionBeanNamingConvention
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule BrokenNullCheck
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule DoNotTerminateVM
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule EmptyWhileStmt
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule BooleanGetMethodName
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule UnusedPrivateField
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule AvoidProtectedFieldInFinalClass
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule UncommentedEmptyMethodBody
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule EmptyFinalizer
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule EmptyStatementBlock
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule UseCorrectExceptionLogging
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule ConstantsInInterface
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule AbstractClassWithoutAnyMethod
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule SwitchStmtsShouldHaveDefault
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule UnusedPrivateMethod
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule FinalizeShouldBeProtected
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule LiteralsFirstInComparisons
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule JUnitStaticSuite
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule UseAssertEqualsInsteadOfAssertTrue
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule AvoidPrintStackTrace
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule UseCollectionIsEmpty
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule DoubleBraceInitialization
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule UnnecessaryFullyQualifiedName
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule TestClassWithoutTestCases
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule UnnecessaryConstructor
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule GuardLogStatement
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule AvoidThrowingNewInstanceOfSameException
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule OneDeclarationPerLine
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule OverrideBothEqualsAndHashcode
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule StringBufferInstantiationWithChar
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule UnusedLocalVariable
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule DoNotExtendJavaLangThrowable
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule UseLocaleWithCaseConversions
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule InstantiationToGetClass
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule ProperCloneImplementation
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule AvoidRethrowingException
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule FieldDeclarationsShouldBeAtStartOfClass
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule EmptyFinallyBlock
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule UnconditionalIfStatement
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule UncommentedEmptyConstructor
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule UseEqualsToCompareStrings
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule EmptyStatementNotInLoop
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule AvoidCalendarDateCreation
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule EmptyCatchBlock
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule ExtendsObject
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule AssignmentInOperand
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule SignatureDeclareThrowsException
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule SuspiciousHashcodeMethodName
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule ShortClassName
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule NonCaseLabelInSwitchStatement
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule AvoidReassigningParameters
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule UnsynchronizedStaticFormatter
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule TooManyStaticImports
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule AddEmptyString
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule OptimizableToArrayCall
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule UnnecessaryConversionTemporary
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule LocalInterfaceSessionNamingConvention
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule ImmutableField
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule ConstructorCallsOverridableMethod
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule UseIOStreamsWithApacheCommonsFileItem
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule SuspiciousOctalEscape
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule InefficientStringBuffering
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule CloseResource
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule InsecureCryptoIv
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule SingletonClassReturningNewInstance
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule ControlStatementBraces
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule SuspiciousEqualsMethodName
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule DetachedTestCase
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule AbstractClassWithoutAbstractMethod
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule InvalidLogMessageFormat
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule UseAssertTrueInsteadOfAssertEquals
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule AvoidFieldNameMatchingMethodName
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule CheckSkipResult
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule UnnecessaryCaseChange
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule EmptyIfStmt
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule ForLoopVariableCount
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule RemoteInterfaceNamingConvention
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule RemoteSessionInterfaceNamingConvention
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule DoNotExtendJavaLangError
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule AvoidStringBufferField
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule JUnitTestsShouldIncludeAssert
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule UnnecessaryLocalBeforeReturn
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule AvoidMessageDigestField
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule AccessorMethodGeneration
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule DefaultLabelNotLastInSwitchStmt
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule SimplifyBooleanAssertion
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule NonThreadSafeSingleton
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule ReturnEmptyArrayRatherThanNull
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule AvoidThreadGroup
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule LogicInversion
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule NoPackage
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule StringToString
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule UnnecessaryModifier
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule FinalFieldCouldBeStatic
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule CloneMethodReturnTypeMustMatchClassName
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule PreserveStackTrace
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule DoNotCallGarbageCollectionExplicitly
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule FinalizeOverloaded
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule ConsecutiveAppendsShouldReuse
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule UseAssertSameInsteadOfAssertTrue
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule AvoidDollarSigns
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule AvoidCatchingThrowable
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule AvoidLosingExceptionInformation
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule DontCallThreadRun
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule SingularField
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule AssignmentToNonFinalStatic
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule AvoidCallingFinalize
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule MethodReturnsInternalArray
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule EmptySwitchStatements
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule AvoidCatchingNPE
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule EmptyTryBlock
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule SimpleDateFormatNeedsLocale
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule CloneThrowsCloneNotSupportedException
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule UnnecessaryWrapperObjectCreation
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule AvoidThrowingNullPointerException
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule CheckResultSet
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule SingleMethodSingleton
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule UseVarargs
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule WhileLoopWithLiteralBoolean
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule FinalizeOnlyCallsSuperFinalize
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule JumbledIncrementer
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule JUnitAssertionsShouldIncludeMessage
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule StringInstantiation
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule SimplifyBooleanExpressions
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule ArrayIsStoredDirectly
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule UseTryWithResources
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule ClassCastExceptionWithToArray
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule DoubleCheckedLocking
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule AvoidMultipleUnaryOperators
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule MethodWithSameNameAsEnclosingClass
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule UseDiamondOperator
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule JUnitSpelling
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule AvoidArrayLoops
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule LocalHomeNamingConvention
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule AvoidSynchronizedAtMethodLevel
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule AvoidUncheckedExceptionsInSignatures
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule AvoidFieldNameMatchingTypeName
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule BooleanInstantiation
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule BadComparison
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule UselessQualifiedThis
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule AvoidDuplicateLiterals
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule IdenticalCatchBranches
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule UnnecessaryBooleanAssertion
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule UselessOperationOnImmutable
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule AvoidUsingHardCodedIP
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule DontImportSun
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule NonStaticInitializer
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule AvoidDecimalLiteralsInBigDecimalConstructor
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule IdempotentOperations
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule UseArrayListInsteadOfVector
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule DefaultPackage
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule StaticEJBFieldShouldBeFinal
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule LooseCoupling
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule MoreThanOneLogger
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule AvoidReassigningCatchVariables
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule AvoidThrowingRawExceptionTypes
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule DontImportJavaLang
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule MissingSerialVersionUID
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule UnusedNullCheckInEquals
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule MissingStaticMethodInNonInstantiatableClass
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule EmptyMethodInAbstractClassShouldBeAbstract
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule UselessOverridingMethod
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule AvoidReassigningLoopVariables
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule SimplifyConditional
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule ExceptionAsFlowControl
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule MissingBreakInSwitch
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule UnusedImports
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule GenericsNaming
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule UnnecessaryAnnotationValueElement
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule AvoidAccessibilityAlteration
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.RulesetsFactoryUtils printRuleNamesInDebug
+FINER: Loaded rule UseAssertNullInsteadOfAssertTrue
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.PMD getApplicableLanguages
+FINE: Using Java version: Java 16
+Mar 04, 2023 7:27:05 PM net.sourceforge.pmd.PMD encourageToUseIncrementalAnalysis
+WARNING: This analysis could be faster, please consider using Incremental Analysis: https://pmd.github.io/pmd-6.32.0/pmd_userdocs_incremental_analysis.html
+Mar 04, 2023 7:27:06 PM net.sourceforge.pmd.processor.PmdRunnable call
+FINE: Processing C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\build\generated\not_namespaced_r_class_sources\debug\r\androidx\appcompat\R.java
+Mar 04, 2023 7:27:06 PM net.sourceforge.pmd.lang.rule.AbstractRuleChainVisitor logXPathRuleChainUsage
+FINE: Using rule chain for XPath 2.0 rule: AvoidMessageDigestField (Best Practices)
+Mar 04, 2023 7:27:06 PM net.sourceforge.pmd.lang.rule.xpath.SaxonXPathRuleQuery analyzeXPathForRuleChain
+FINE: Unable to use RuleChain for XPath: 
+
+//PrimaryExpression[
+   ( PrimaryPrefix[Name[contains(@Image,'printStackTrace')]]
+   | PrimarySuffix[@Image='printStackTrace']
+   )/following-sibling::*[1][self::PrimarySuffix/Arguments[@Size=0]]
+]
+
+                
+Mar 04, 2023 7:27:06 PM net.sourceforge.pmd.lang.rule.AbstractRuleChainVisitor logXPathRuleChainUsage
+FINE: no rule chain for XPath 2.0 rule: AvoidPrintStackTrace (Best Practices)
+Mar 04, 2023 7:27:06 PM net.sourceforge.pmd.lang.rule.AbstractRuleChainVisitor logXPathRuleChainUsage
+FINE: Using rule chain for XPath 2.0 rule: AvoidStringBufferField (Best Practices)
+Mar 04, 2023 7:27:06 PM net.sourceforge.pmd.lang.rule.AbstractRuleChainVisitor logXPathRuleChainUsage
+FINE: Using rule chain for XPath 2.0 rule: ConstantsInInterface (Best Practices)
+Mar 04, 2023 7:27:06 PM net.sourceforge.pmd.lang.rule.AbstractRuleChainVisitor logXPathRuleChainUsage
+FINE: Using rule chain for XPath 2.0 rule: DefaultLabelNotLastInSwitchStmt (Best Practices)
+Mar 04, 2023 7:27:06 PM net.sourceforge.pmd.lang.rule.AbstractRuleChainVisitor logXPathRuleChainUsage
+FINE: Using rule chain for XPath 2.0 rule: DoubleBraceInitialization (Best Practices)
+Mar 04, 2023 7:27:06 PM net.sourceforge.pmd.lang.rule.AbstractRuleChainVisitor logXPathRuleChainUsage
+FINE: Using rule chain for XPath 2.0 rule: ForLoopVariableCount (Best Practices)
+Mar 04, 2023 7:27:06 PM net.sourceforge.pmd.lang.rule.AbstractRuleChainVisitor logXPathRuleChainUsage
+FINE: Using rule chain for XPath 2.0 rule: JUnitTestContainsTooManyAsserts (Best Practices)
+Mar 04, 2023 7:27:06 PM net.sourceforge.pmd.lang.rule.AbstractRuleChainVisitor logXPathRuleChainUsage
+FINE: Using rule chain for XPath 2.0 rule: OneDeclarationPerLine (Best Practices)
+Mar 04, 2023 7:27:06 PM net.sourceforge.pmd.lang.rule.AbstractRuleChainVisitor logXPathRuleChainUsage
+FINE: Using rule chain for XPath 2.0 rule: SwitchStmtsShouldHaveDefault (Best Practices)
+Mar 04, 2023 7:27:06 PM net.sourceforge.pmd.lang.rule.AbstractRuleChainVisitor logXPathRuleChainUsage
+FINE: Using rule chain for XPath 2.0 rule: SystemPrintln (Best Practices)
+Mar 04, 2023 7:27:06 PM net.sourceforge.pmd.lang.rule.AbstractRuleChainVisitor logXPathRuleChainUsage
+FINE: Using rule chain for XPath 2.0 rule: UseAssertEqualsInsteadOfAssertTrue (Best Practices)
+Mar 04, 2023 7:27:06 PM net.sourceforge.pmd.lang.rule.AbstractRuleChainVisitor logXPathRuleChainUsage
+FINE: Using rule chain for XPath 2.0 rule: UseAssertNullInsteadOfAssertTrue (Best Practices)
+Mar 04, 2023 7:27:06 PM net.sourceforge.pmd.lang.rule.AbstractRuleChainVisitor logXPathRuleChainUsage
+FINE: Using rule chain for XPath 2.0 rule: UseAssertSameInsteadOfAssertTrue (Best Practices)
+Mar 04, 2023 7:27:06 PM net.sourceforge.pmd.lang.rule.AbstractRuleChainVisitor logXPathRuleChainUsage
+FINE: Using rule chain for XPath 2.0 rule: UseAssertTrueInsteadOfAssertEquals (Best Practices)
+Mar 04, 2023 7:27:06 PM net.sourceforge.pmd.lang.rule.AbstractRuleChainVisitor logXPathRuleChainUsage
+FINE: Using rule chain for XPath 2.0 rule: UseTryWithResources (Best Practices)
+Mar 04, 2023 7:27:06 PM net.sourceforge.pmd.lang.rule.AbstractRuleChainVisitor logXPathRuleChainUsage
+FINE: Using rule chain for XPath 2.0 rule: UseVarargs (Best Practices)
+Mar 04, 2023 7:27:06 PM net.sourceforge.pmd.lang.rule.AbstractRuleChainVisitor logXPathRuleChainUsage
+FINE: Using rule chain for XPath 2.0 rule: WhileLoopWithLiteralBoolean (Best Practices)
+Mar 04, 2023 7:27:06 PM net.sourceforge.pmd.lang.rule.AbstractRuleChainVisitor logXPathRuleChainUsage
+FINE: Using rule chain for XPath 2.0 rule: AvoidProtectedFieldInFinalClass (Code Style)
+Mar 04, 2023 7:27:06 PM net.sourceforge.pmd.lang.rule.AbstractRuleChainVisitor logXPathRuleChainUsage
+FINE: Using rule chain for XPath 2.0 rule: AvoidProtectedMethodInFinalClassNotExtending (Code Style)
+Mar 04, 2023 7:27:06 PM net.sourceforge.pmd.lang.rule.AbstractRuleChainVisitor logXPathRuleChainUsage
+FINE: Using rule chain for XPath 2.0 rule: AvoidUsingNativeCode (Code Style)
+Mar 04, 2023 7:27:06 PM net.sourceforge.pmd.lang.rule.AbstractRuleChainVisitor logXPathRuleChainUsage
+FINE: Using rule chain for XPath 2.0 rule: BooleanGetMethodName (Code Style)
+Mar 04, 2023 7:27:06 PM net.sourceforge.pmd.lang.rule.AbstractRuleChainVisitor logXPathRuleChainUsage
+FINE: Using rule chain for XPath 2.0 rule: ControlStatementBraces (Code Style)
+Mar 04, 2023 7:27:06 PM net.sourceforge.pmd.lang.rule.AbstractRuleChainVisitor logXPathRuleChainUsage
+FINE: Using rule chain for XPath 2.0 rule: DefaultPackage (Code Style)
+Mar 04, 2023 7:27:06 PM net.sourceforge.pmd.lang.rule.AbstractRuleChainVisitor logXPathRuleChainUsage
+FINE: Using rule chain for XPath 2.0 rule: EmptyMethodInAbstractClassShouldBeAbstract (Code Style)
+Mar 04, 2023 7:27:06 PM net.sourceforge.pmd.lang.rule.AbstractRuleChainVisitor logXPathRuleChainUsage
+FINE: Using rule chain for XPath 2.0 rule: ExtendsObject (Code Style)
+Mar 04, 2023 7:27:06 PM net.sourceforge.pmd.lang.rule.AbstractRuleChainVisitor logXPathRuleChainUsage
+FINE: Using rule chain for XPath 2.0 rule: ForLoopShouldBeWhileLoop (Code Style)
+Mar 04, 2023 7:27:06 PM net.sourceforge.pmd.lang.rule.AbstractRuleChainVisitor logXPathRuleChainUsage
+FINE: Using rule chain for XPath 2.0 rule: GenericsNaming (Code Style)
+Mar 04, 2023 7:27:06 PM net.sourceforge.pmd.lang.rule.AbstractRuleChainVisitor logXPathRuleChainUsage
+FINE: Using rule chain for XPath 2.0 rule: LocalHomeNamingConvention (Code Style)
+Mar 04, 2023 7:27:06 PM net.sourceforge.pmd.lang.rule.AbstractRuleChainVisitor logXPathRuleChainUsage
+FINE: Using rule chain for XPath 2.0 rule: LocalInterfaceSessionNamingConvention (Code Style)
+Mar 04, 2023 7:27:06 PM net.sourceforge.pmd.lang.rule.AbstractRuleChainVisitor logXPathRuleChainUsage
+FINE: Using rule chain for XPath 2.0 rule: MDBAndSessionBeanNamingConvention (Code Style)
+Mar 04, 2023 7:27:06 PM net.sourceforge.pmd.lang.rule.AbstractRuleChainVisitor logXPathRuleChainUsage
+FINE: Using rule chain for XPath 2.0 rule: NoPackage (Code Style)
+Mar 04, 2023 7:27:06 PM net.sourceforge.pmd.lang.rule.AbstractRuleChainVisitor logXPathRuleChainUsage
+FINE: Using rule chain for XPath 2.0 rule: UseUnderscoresInNumericLiterals (Code Style)
+Mar 04, 2023 7:27:06 PM net.sourceforge.pmd.lang.rule.AbstractRuleChainVisitor logXPathRuleChainUsage
+FINE: Using rule chain for XPath 2.0 rule: PackageCase (Code Style)
+Mar 04, 2023 7:27:06 PM net.sourceforge.pmd.lang.rule.AbstractRuleChainVisitor logXPathRuleChainUsage
+FINE: Using rule chain for XPath 2.0 rule: RemoteInterfaceNamingConvention (Code Style)
+Mar 04, 2023 7:27:06 PM net.sourceforge.pmd.lang.rule.AbstractRuleChainVisitor logXPathRuleChainUsage
+FINE: Using rule chain for XPath 2.0 rule: RemoteSessionInterfaceNamingConvention (Code Style)
+Mar 04, 2023 7:27:06 PM net.sourceforge.pmd.lang.rule.AbstractRuleChainVisitor logXPathRuleChainUsage
+FINE: Using rule chain for XPath 2.0 rule: ShortClassName (Code Style)
+Mar 04, 2023 7:27:06 PM net.sourceforge.pmd.lang.rule.AbstractRuleChainVisitor logXPathRuleChainUsage
+FINE: Using rule chain for XPath 2.0 rule: ShortMethodName (Code Style)
+Mar 04, 2023 7:27:06 PM net.sourceforge.pmd.lang.rule.xpath.SaxonXPathRuleQuery analyzeXPathForRuleChain
+FINE: Unable to use RuleChain for XPath: 
+
+.[count(ImportDeclaration[@Static = true()]) > $maximumStaticImports]
+
+                
+Mar 04, 2023 7:27:06 PM net.sourceforge.pmd.lang.rule.AbstractRuleChainVisitor logXPathRuleChainUsage
+FINE: no rule chain for XPath 2.0 rule: TooManyStaticImports (Code Style)
+Mar 04, 2023 7:27:06 PM net.sourceforge.pmd.lang.rule.xpath.SaxonXPathRuleQuery analyzeXPathForRuleChain
+FINE: Unable to use RuleChain for XPath: 
+                    
+(
+//VariableInitializer[preceding-sibling::VariableDeclaratorId[1]/@TypeInferred=false()]
+|
+//StatementExpression[AssignmentOperator and PrimaryExpression/PrimaryPrefix[not(Expression)]]
+)
+/(Expression | Expression[$java7Compatibility = false()]/ConditionalExpression | Expression[$java7Compatibility = false()]/ConditionalExpression/Expression)
+/PrimaryExpression[not(PrimarySuffix) and not(ancestor::ArgumentList)]
+/PrimaryPrefix
+/AllocationExpression
+    [@AnonymousClass=false()]
+    [ClassOrInterfaceType/TypeArguments[@Diamond=false() and not($java7Compatibility = true() and .//TypeArgument[@Wildcard=true()])]]
+    [not(ArrayDimsAndInits)]
+
+                
+Mar 04, 2023 7:27:06 PM net.sourceforge.pmd.lang.rule.AbstractRuleChainVisitor logXPathRuleChainUsage
+FINE: no rule chain for XPath 2.0 rule: UseDiamondOperator (Code Style)
+Mar 04, 2023 7:27:06 PM net.sourceforge.pmd.lang.rule.AbstractRuleChainVisitor logXPathRuleChainUsage
+FINE: Using rule chain for XPath 2.0 rule: UselessQualifiedThis (Code Style)
+Mar 04, 2023 7:27:06 PM net.sourceforge.pmd.lang.rule.AbstractRuleChainVisitor logXPathRuleChainUsage
+FINE: Using rule chain for XPath 2.0 rule: UseShortArrayInitializer (Code Style)
+Mar 04, 2023 7:27:06 PM net.sourceforge.pmd.lang.rule.AbstractRuleChainVisitor logXPathRuleChainUsage
+FINE: Using rule chain for XPath 2.0 rule: AbstractClassWithoutAnyMethod (Design)
+Mar 04, 2023 7:27:06 PM net.sourceforge.pmd.lang.rule.AbstractRuleChainVisitor logXPathRuleChainUsage
+FINE: Using rule chain for XPath 2.0 rule: AvoidCatchingGenericException (Design)
+Mar 04, 2023 7:27:06 PM net.sourceforge.pmd.lang.rule.AbstractRuleChainVisitor logXPathRuleChainUsage
+FINE: Using rule chain for XPath 2.0 rule: AvoidRethrowingException (Design)
+Mar 04, 2023 7:27:06 PM net.sourceforge.pmd.lang.rule.AbstractRuleChainVisitor logXPathRuleChainUsage
+FINE: Using rule chain for XPath 2.0 rule: AvoidThrowingNewInstanceOfSameException (Design)
+Mar 04, 2023 7:27:06 PM net.sourceforge.pmd.lang.rule.AbstractRuleChainVisitor logXPathRuleChainUsage
+FINE: Using rule chain for XPath 2.0 rule: AvoidThrowingRawExceptionTypes (Design)
+Mar 04, 2023 7:27:06 PM net.sourceforge.pmd.lang.rule.AbstractRuleChainVisitor logXPathRuleChainUsage
+FINE: Using rule chain for XPath 2.0 rule: AvoidUncheckedExceptionsInSignatures (Design)
+Mar 04, 2023 7:27:06 PM net.sourceforge.pmd.lang.rule.AbstractRuleChainVisitor logXPathRuleChainUsage
+FINE: Using rule chain for XPath 2.0 rule: ClassWithOnlyPrivateConstructorsShouldBeFinal (Design)
+Mar 04, 2023 7:27:06 PM net.sourceforge.pmd.lang.rule.AbstractRuleChainVisitor logXPathRuleChainUsage
+FINE: Using rule chain for XPath 2.0 rule: CollapsibleIfStatements (Design)
+Mar 04, 2023 7:27:06 PM net.sourceforge.pmd.lang.rule.AbstractRuleChainVisitor logXPathRuleChainUsage
+FINE: Using rule chain for XPath 2.0 rule: DoNotExtendJavaLangError (Design)
+Mar 04, 2023 7:27:06 PM net.sourceforge.pmd.lang.rule.AbstractRuleChainVisitor logXPathRuleChainUsage
+FINE: Using rule chain for XPath 2.0 rule: FinalFieldCouldBeStatic (Design)
+Mar 04, 2023 7:27:06 PM net.sourceforge.pmd.lang.rule.AbstractRuleChainVisitor logXPathRuleChainUsage
+FINE: Using rule chain for XPath 2.0 rule: LogicInversion (Design)
+Mar 04, 2023 7:27:06 PM net.sourceforge.pmd.lang.rule.AbstractRuleChainVisitor logXPathRuleChainUsage
+FINE: Using rule chain for XPath 2.0 rule: SimplifiedTernary (Design)
+Mar 04, 2023 7:27:06 PM net.sourceforge.pmd.lang.rule.AbstractRuleChainVisitor logXPathRuleChainUsage
+FINE: Using rule chain for XPath 2.0 rule: SimplifyBooleanAssertion (Design)
+Mar 04, 2023 7:27:06 PM net.sourceforge.pmd.lang.rule.AbstractRuleChainVisitor logXPathRuleChainUsage
+FINE: Using rule chain for XPath 2.0 rule: SimplifyBooleanExpressions (Design)
+Mar 04, 2023 7:27:06 PM net.sourceforge.pmd.lang.rule.AbstractRuleChainVisitor logXPathRuleChainUsage
+FINE: Using rule chain for XPath 2.0 rule: SimplifyConditional (Design)
+Mar 04, 2023 7:27:06 PM net.sourceforge.pmd.lang.rule.AbstractRuleChainVisitor logXPathRuleChainUsage
+FINE: Using rule chain for XPath 2.0 rule: UncommentedEmptyConstructor (Documentation)
+Mar 04, 2023 7:27:06 PM net.sourceforge.pmd.lang.rule.AbstractRuleChainVisitor logXPathRuleChainUsage
+FINE: Using rule chain for XPath 2.0 rule: UncommentedEmptyMethodBody (Documentation)
+Mar 04, 2023 7:27:06 PM net.sourceforge.pmd.lang.rule.xpath.SaxonXPathRuleQuery analyzeXPathForRuleChain
+FINE: Unable to use RuleChain for XPath: 
+
+//PrimaryExpression[
+(
+(PrimarySuffix[
+        ends-with(@Image,'getDeclaredConstructors')
+                or
+        ends-with(@Image,'getDeclaredConstructor')
+                or
+        ends-with(@Image,'setAccessible')
+        ])
+or
+(PrimaryPrefix/Name[
+        ends-with(@Image,'getDeclaredConstructor')
+        or
+        ends-with(@Image,'getDeclaredConstructors')
+        or
+        starts-with(@Image,'AccessibleObject.setAccessible')
+        ])
+)
+and
+(//ImportDeclaration/Name[
+        contains(@Image,'java.security.PrivilegedAction')])
+]
+
+                
+Mar 04, 2023 7:27:06 PM net.sourceforge.pmd.lang.rule.AbstractRuleChainVisitor logXPathRuleChainUsage
+FINE: no rule chain for XPath 2.0 rule: AvoidAccessibilityAlteration (Error Prone)
+Mar 04, 2023 7:27:06 PM net.sourceforge.pmd.lang.rule.AbstractRuleChainVisitor logXPathRuleChainUsage
+FINE: Using rule chain for XPath 2.0 rule: AvoidCatchingNPE (Error Prone)
+Mar 04, 2023 7:27:06 PM net.sourceforge.pmd.lang.rule.AbstractRuleChainVisitor logXPathRuleChainUsage
+FINE: Using rule chain for XPath 2.0 rule: AvoidDecimalLiteralsInBigDecimalConstructor (Error Prone)
+Mar 04, 2023 7:27:06 PM net.sourceforge.pmd.lang.rule.AbstractRuleChainVisitor logXPathRuleChainUsage
+FINE: Using rule chain for XPath 2.0 rule: AvoidInstanceofChecksInCatchClause (Error Prone)
+Mar 04, 2023 7:27:06 PM net.sourceforge.pmd.lang.rule.AbstractRuleChainVisitor logXPathRuleChainUsage
+FINE: Using rule chain for XPath 2.0 rule: AvoidLosingExceptionInformation (Error Prone)
+Mar 04, 2023 7:27:06 PM net.sourceforge.pmd.lang.rule.AbstractRuleChainVisitor logXPathRuleChainUsage
+FINE: Using rule chain for XPath 2.0 rule: BadComparison (Error Prone)
+Mar 04, 2023 7:27:06 PM net.sourceforge.pmd.lang.rule.AbstractRuleChainVisitor logXPathRuleChainUsage
+FINE: Using rule chain for XPath 2.0 rule: ClassCastExceptionWithToArray (Error Prone)
+Mar 04, 2023 7:27:06 PM net.sourceforge.pmd.lang.rule.AbstractRuleChainVisitor logXPathRuleChainUsage
+FINE: Using rule chain for XPath 2.0 rule: CloneMethodMustBePublic (Error Prone)
+Mar 04, 2023 7:27:06 PM net.sourceforge.pmd.lang.rule.AbstractRuleChainVisitor logXPathRuleChainUsage
+FINE: Using rule chain for XPath 2.0 rule: CloneMethodReturnTypeMustMatchClassName (Error Prone)
+Mar 04, 2023 7:27:06 PM net.sourceforge.pmd.lang.rule.AbstractRuleChainVisitor logXPathRuleChainUsage
+FINE: Using rule chain for XPath 2.0 rule: CloneThrowsCloneNotSupportedException (Error Prone)
+Mar 04, 2023 7:27:06 PM net.sourceforge.pmd.lang.rule.AbstractRuleChainVisitor logXPathRuleChainUsage
+FINE: Using rule chain for XPath 2.0 rule: DetachedTestCase (Error Prone)
+Mar 04, 2023 7:27:06 PM net.sourceforge.pmd.lang.rule.AbstractRuleChainVisitor logXPathRuleChainUsage
+FINE: Using rule chain for XPath 2.0 rule: DoNotCallGarbageCollectionExplicitly (Error Prone)
+Mar 04, 2023 7:27:06 PM net.sourceforge.pmd.lang.rule.AbstractRuleChainVisitor logXPathRuleChainUsage
+FINE: Using rule chain for XPath 2.0 rule: DoNotExtendJavaLangThrowable (Error Prone)
+Mar 04, 2023 7:27:06 PM net.sourceforge.pmd.lang.rule.AbstractRuleChainVisitor logXPathRuleChainUsage
+FINE: Using rule chain for XPath 2.0 rule: DoNotTerminateVM (Error Prone)
+Mar 04, 2023 7:27:06 PM net.sourceforge.pmd.lang.rule.AbstractRuleChainVisitor logXPathRuleChainUsage
+FINE: Using rule chain for XPath 2.0 rule: DoNotThrowExceptionInFinally (Error Prone)
+Mar 04, 2023 7:27:06 PM net.sourceforge.pmd.lang.rule.AbstractRuleChainVisitor logXPathRuleChainUsage
+FINE: Using rule chain for XPath 2.0 rule: DontUseFloatTypeForLoopIndices (Error Prone)
+Mar 04, 2023 7:27:06 PM net.sourceforge.pmd.lang.rule.AbstractRuleChainVisitor logXPathRuleChainUsage
+FINE: Using rule chain for XPath 2.0 rule: EmptyCatchBlock (Error Prone)
+Mar 04, 2023 7:27:06 PM net.sourceforge.pmd.lang.rule.AbstractRuleChainVisitor logXPathRuleChainUsage
+FINE: Using rule chain for XPath 2.0 rule: EmptyFinalizer (Error Prone)
+Mar 04, 2023 7:27:06 PM net.sourceforge.pmd.lang.rule.AbstractRuleChainVisitor logXPathRuleChainUsage
+FINE: Using rule chain for XPath 2.0 rule: EmptyFinallyBlock (Error Prone)
+Mar 04, 2023 7:27:06 PM net.sourceforge.pmd.lang.rule.AbstractRuleChainVisitor logXPathRuleChainUsage
+FINE: Using rule chain for XPath 2.0 rule: EmptyIfStmt (Error Prone)
+Mar 04, 2023 7:27:06 PM net.sourceforge.pmd.lang.rule.AbstractRuleChainVisitor logXPathRuleChainUsage
+FINE: Using rule chain for XPath 2.0 rule: EmptyStatementBlock (Error Prone)
+Mar 04, 2023 7:27:06 PM net.sourceforge.pmd.lang.rule.AbstractRuleChainVisitor logXPathRuleChainUsage
+FINE: Using rule chain for XPath 2.0 rule: EmptyStatementNotInLoop (Error Prone)
+Mar 04, 2023 7:27:06 PM net.sourceforge.pmd.lang.rule.AbstractRuleChainVisitor logXPathRuleChainUsage
+FINE: Using rule chain for XPath 2.0 rule: EmptySwitchStatements (Error Prone)
+Mar 04, 2023 7:27:06 PM net.sourceforge.pmd.lang.rule.AbstractRuleChainVisitor logXPathRuleChainUsage
+FINE: Using rule chain for XPath 2.0 rule: EmptySynchronizedBlock (Error Prone)
+Mar 04, 2023 7:27:06 PM net.sourceforge.pmd.lang.rule.AbstractRuleChainVisitor logXPathRuleChainUsage
+FINE: Using rule chain for XPath 2.0 rule: EmptyTryBlock (Error Prone)
+Mar 04, 2023 7:27:06 PM net.sourceforge.pmd.lang.rule.AbstractRuleChainVisitor logXPathRuleChainUsage
+FINE: Using rule chain for XPath 2.0 rule: EmptyWhileStmt (Error Prone)
+Mar 04, 2023 7:27:06 PM net.sourceforge.pmd.lang.rule.AbstractRuleChainVisitor logXPathRuleChainUsage
+FINE: Using rule chain for XPath 2.0 rule: EqualsNull (Error Prone)
+Mar 04, 2023 7:27:06 PM net.sourceforge.pmd.lang.rule.AbstractRuleChainVisitor logXPathRuleChainUsage
+FINE: Using rule chain for XPath 2.0 rule: FinalizeDoesNotCallSuperFinalize (Error Prone)
+Mar 04, 2023 7:27:06 PM net.sourceforge.pmd.lang.rule.AbstractRuleChainVisitor logXPathRuleChainUsage
+FINE: Using rule chain for XPath 2.0 rule: FinalizeOnlyCallsSuperFinalize (Error Prone)
+Mar 04, 2023 7:27:06 PM net.sourceforge.pmd.lang.rule.AbstractRuleChainVisitor logXPathRuleChainUsage
+FINE: Using rule chain for XPath 2.0 rule: FinalizeOverloaded (Error Prone)
+Mar 04, 2023 7:27:06 PM net.sourceforge.pmd.lang.rule.AbstractRuleChainVisitor logXPathRuleChainUsage
+FINE: Using rule chain for XPath 2.0 rule: FinalizeShouldBeProtected (Error Prone)
+Mar 04, 2023 7:27:06 PM net.sourceforge.pmd.lang.rule.AbstractRuleChainVisitor logXPathRuleChainUsage
+FINE: Using rule chain for XPath 2.0 rule: InstantiationToGetClass (Error Prone)
+Mar 04, 2023 7:27:06 PM net.sourceforge.pmd.lang.rule.AbstractRuleChainVisitor logXPathRuleChainUsage
+FINE: Using rule chain for XPath 2.0 rule: JumbledIncrementer (Error Prone)
+Mar 04, 2023 7:27:06 PM net.sourceforge.pmd.lang.rule.AbstractRuleChainVisitor logXPathRuleChainUsage
+FINE: Using rule chain for XPath 2.0 rule: MisplacedNullCheck (Error Prone)
+Mar 04, 2023 7:27:06 PM net.sourceforge.pmd.lang.rule.AbstractRuleChainVisitor logXPathRuleChainUsage
+FINE: Using rule chain for XPath 2.0 rule: MissingBreakInSwitch (Error Prone)
+Mar 04, 2023 7:27:06 PM net.sourceforge.pmd.lang.rule.AbstractRuleChainVisitor logXPathRuleChainUsage
+FINE: Using rule chain for XPath 2.0 rule: MissingSerialVersionUID (Error Prone)
+Mar 04, 2023 7:27:06 PM net.sourceforge.pmd.lang.rule.xpath.SaxonXPathRuleQuery analyzeXPathForRuleChain
+FINE: Unable to use RuleChain for XPath: 
+
+//ClassOrInterfaceDeclaration[@Nested= false()]
+[
+  (
+    (: at least one constructor :)
+    ./ClassOrInterfaceBody/ClassOrInterfaceBodyDeclaration/ConstructorDeclaration
+    and
+    (: only private constructors :)count(./ClassOrInterfaceBody/ClassOrInterfaceBodyDeclaration/ConstructorDeclaration) = count(./ClassOrInterfaceBody/ClassOrInterfaceBodyDeclaration/ConstructorDeclaration[@Private= true()])
+    and
+    (: all constructors must not be annotated :)
+    (every $x in $annotations satisfies
+      not(./ClassOrInterfaceBody/ClassOrInterfaceBodyDeclaration/ConstructorDeclaration/
+            ../Annotation/MarkerAnnotation/Name[pmd-java:typeIs($x)]))
+  )
+  and
+  (: no static methods :)not(.//MethodDeclaration[@Static= true()])
+  and
+  (: no (public, package-private, protected) static fields :)not(.//FieldDeclaration[@Private= false()][@Static= true()])
+  and
+  (: no nested classes, that are public and static, and have no constructors at all or a public constructor :)
+  (: and have a method returning the outer class type :)
+  (: or the inner class extends the outer class :)not(.//ClassOrInterfaceDeclaration[@Nested= true()]
+           [@Public= true()]
+           [@Static= true()]
+           [not(./ClassOrInterfaceBody/ClassOrInterfaceBodyDeclaration/ConstructorDeclaration) or ./ClassOrInterfaceBody/ClassOrInterfaceBodyDeclaration/ConstructorDeclaration[@Public= true()]]
+           [(./ClassOrInterfaceBody/ClassOrInterfaceBodyDeclaration/MethodDeclaration
+                [@Public= true()]
+                [./ResultType/Type/ReferenceType/ClassOrInterfaceType
+                    [@Image = //ClassOrInterfaceDeclaration[@Nested= false()]/@SimpleName]
+                ]
+            ) or (
+                ./ExtendsList/ClassOrInterfaceType[@Image = //ClassOrInterfaceDeclaration[@Nested=false()]/@SimpleName]
+            )]
+        )
+]
+
+                
+Mar 04, 2023 7:27:06 PM net.sourceforge.pmd.lang.rule.AbstractRuleChainVisitor logXPathRuleChainUsage
+FINE: no rule chain for XPath 2.0 rule: MissingStaticMethodInNonInstantiatableClass (Error Prone)
+Mar 04, 2023 7:27:06 PM net.sourceforge.pmd.lang.rule.AbstractRuleChainVisitor logXPathRuleChainUsage
+FINE: Using rule chain for XPath 2.0 rule: NonCaseLabelInSwitchStatement (Error Prone)
+Mar 04, 2023 7:27:06 PM net.sourceforge.pmd.lang.rule.AbstractRuleChainVisitor logXPathRuleChainUsage
+FINE: Using rule chain for XPath 2.0 rule: NonStaticInitializer (Error Prone)
+Mar 04, 2023 7:27:06 PM net.sourceforge.pmd.lang.rule.AbstractRuleChainVisitor logXPathRuleChainUsage
+FINE: Using rule chain for XPath 2.0 rule: ProperLogger (Error Prone)
+Mar 04, 2023 7:27:06 PM net.sourceforge.pmd.lang.rule.AbstractRuleChainVisitor logXPathRuleChainUsage
+FINE: Using rule chain for XPath 2.0 rule: ReturnEmptyArrayRatherThanNull (Error Prone)
+Mar 04, 2023 7:27:06 PM net.sourceforge.pmd.lang.rule.AbstractRuleChainVisitor logXPathRuleChainUsage
+FINE: Using rule chain for XPath 2.0 rule: ReturnFromFinallyBlock (Error Prone)
+Mar 04, 2023 7:27:06 PM net.sourceforge.pmd.lang.rule.AbstractRuleChainVisitor logXPathRuleChainUsage
+FINE: Using rule chain for XPath 2.0 rule: SimpleDateFormatNeedsLocale (Error Prone)
+Mar 04, 2023 7:27:06 PM net.sourceforge.pmd.lang.rule.AbstractRuleChainVisitor logXPathRuleChainUsage
+FINE: Using rule chain for XPath 2.0 rule: StaticEJBFieldShouldBeFinal (Error Prone)
+Mar 04, 2023 7:27:06 PM net.sourceforge.pmd.lang.rule.AbstractRuleChainVisitor logXPathRuleChainUsage
+FINE: Using rule chain for XPath 2.0 rule: StringBufferInstantiationWithChar (Error Prone)
+Mar 04, 2023 7:27:06 PM net.sourceforge.pmd.lang.rule.AbstractRuleChainVisitor logXPathRuleChainUsage
+FINE: Using rule chain for XPath 2.0 rule: SuspiciousEqualsMethodName (Error Prone)
+Mar 04, 2023 7:27:06 PM net.sourceforge.pmd.lang.rule.AbstractRuleChainVisitor logXPathRuleChainUsage
+FINE: Using rule chain for XPath 2.0 rule: UnconditionalIfStatement (Error Prone)
+Mar 04, 2023 7:27:06 PM net.sourceforge.pmd.lang.rule.AbstractRuleChainVisitor logXPathRuleChainUsage
+FINE: Using rule chain for XPath 2.0 rule: UnnecessaryBooleanAssertion (Error Prone)
+Mar 04, 2023 7:27:06 PM net.sourceforge.pmd.lang.rule.xpath.SaxonXPathRuleQuery analyzeXPathForRuleChain
+FINE: Unable to use RuleChain for XPath: 
+
+(//PrimaryPrefix[ends-with(Name/@Image, '.equals') and Name/@Image != 'Arrays.equals'] | //PrimarySuffix[@Image='equals' and not(../PrimaryPrefix/Literal)])
+ /following-sibling::PrimarySuffix/Arguments/ArgumentList/Expression
+ /PrimaryExpression[not(PrimarySuffix)]/PrimaryPrefix
+ /Name[@Image = ./../../../../../../../../../../Expression/ConditionalAndExpression
+ /EqualityExpression[@Image="!=" and not(./preceding-sibling::*) and
+ ./PrimaryExpression/PrimaryPrefix/Literal/NullLiteral]
+  /PrimaryExpression/PrimaryPrefix/Name/@Image]
+
+                
+Mar 04, 2023 7:27:06 PM net.sourceforge.pmd.lang.rule.AbstractRuleChainVisitor logXPathRuleChainUsage
+FINE: no rule chain for XPath 2.0 rule: UnusedNullCheckInEquals (Error Prone)
+Mar 04, 2023 7:27:06 PM net.sourceforge.pmd.lang.rule.AbstractRuleChainVisitor logXPathRuleChainUsage
+FINE: Using rule chain for XPath 2.0 rule: UseCorrectExceptionLogging (Error Prone)
+Mar 04, 2023 7:27:06 PM net.sourceforge.pmd.lang.rule.AbstractRuleChainVisitor logXPathRuleChainUsage
+FINE: Using rule chain for XPath 2.0 rule: UseEqualsToCompareStrings (Error Prone)
+Mar 04, 2023 7:27:06 PM net.sourceforge.pmd.lang.rule.AbstractRuleChainVisitor logXPathRuleChainUsage
+FINE: Using rule chain for XPath 2.0 rule: UseLocaleWithCaseConversions (Error Prone)
+Mar 04, 2023 7:27:06 PM net.sourceforge.pmd.lang.rule.AbstractRuleChainVisitor logXPathRuleChainUsage
+FINE: Using rule chain for XPath 2.0 rule: AvoidSynchronizedAtMethodLevel (Multithreading)
+Mar 04, 2023 7:27:06 PM net.sourceforge.pmd.lang.rule.AbstractRuleChainVisitor logXPathRuleChainUsage
+FINE: Using rule chain for XPath 2.0 rule: AvoidThreadGroup (Multithreading)
+Mar 04, 2023 7:27:06 PM net.sourceforge.pmd.lang.rule.AbstractRuleChainVisitor logXPathRuleChainUsage
+FINE: Using rule chain for XPath 2.0 rule: DontCallThreadRun (Multithreading)
+Mar 04, 2023 7:27:06 PM net.sourceforge.pmd.lang.rule.AbstractRuleChainVisitor logXPathRuleChainUsage
+FINE: Using rule chain for XPath 2.0 rule: UseNotifyAllInsteadOfNotify (Multithreading)
+Mar 04, 2023 7:27:06 PM net.sourceforge.pmd.lang.rule.AbstractRuleChainVisitor logXPathRuleChainUsage
+FINE: Using rule chain for XPath 2.0 rule: AddEmptyString (Performance)
+Mar 04, 2023 7:27:06 PM net.sourceforge.pmd.lang.rule.AbstractRuleChainVisitor logXPathRuleChainUsage
+FINE: Using rule chain for XPath 2.0 rule: AvoidArrayLoops (Performance)
+Mar 04, 2023 7:27:06 PM net.sourceforge.pmd.lang.rule.xpath.SaxonXPathRuleQuery analyzeXPathForRuleChain
+FINE: Unable to use RuleChain for XPath: 
+//PrimaryPrefix[Name[ends-with(@Image, 'Calendar.getInstance')]] [count(../PrimarySuffix) > 2 and ../PrimarySuffix[last()-1][@Image = 'getTime' or @Image='getTimeInMillis']]
+|
+//MethodDeclaration[not(MethodDeclarator/FormalParameters//ClassOrInterfaceType[pmd-java:typeIs('java.util.Calendar')])]
+  /Block/BlockStatement//PrimaryExpression
+  /PrimaryPrefix/Name
+    [pmd-java:typeIs('java.util.Calendar')]
+    [every $var in @Image satisfies (
+       (ends-with($var, '.getTime') or ends-with($var, '.getTimeInMillis'))
+       and
+       (: ignore if .set* or .add* or .clear is called on the variable :)
+       not(ancestor::Block/BlockStatement//Name[
+          starts-with(@Image, concat((tokenize($var, '\.'), $var)[1], '.set'))
+          or
+          starts-with(@Image, concat((tokenize($var, '\.'), $var)[1], '.add'))
+          or
+          starts-with(@Image, concat((tokenize($var, '\.'), $var)[1], '.clear'))
+       ])
+    )]
+|
+//ClassOrInterfaceType[pmd-java:typeIs('org.joda.time.DateTime') or pmd-java:typeIs('org.joda.time.LocalDateTime')][../Arguments/ArgumentList/Expression/PrimaryExpression/PrimaryPrefix/Name[ends-with(@Image, 'Calendar.getInstance')]]
+                
+Mar 04, 2023 7:27:06 PM net.sourceforge.pmd.lang.rule.AbstractRuleChainVisitor logXPathRuleChainUsage
+FINE: no rule chain for XPath 2.0 rule: AvoidCalendarDateCreation (Performance)
+Mar 04, 2023 7:27:06 PM net.sourceforge.pmd.lang.rule.AbstractRuleChainVisitor logXPathRuleChainUsage
+FINE: Using rule chain for XPath 2.0 rule: AvoidFileStream (Performance)
+Mar 04, 2023 7:27:06 PM net.sourceforge.pmd.lang.rule.AbstractRuleChainVisitor logXPathRuleChainUsage
+FINE: Using rule chain for XPath 2.0 rule: OptimizableToArrayCall (Performance)
+Mar 04, 2023 7:27:06 PM net.sourceforge.pmd.lang.rule.AbstractRuleChainVisitor logXPathRuleChainUsage
+FINE: Using rule chain for XPath 2.0 rule: TooFewBranchesForASwitchStatement (Performance)
+Mar 04, 2023 7:27:06 PM net.sourceforge.pmd.lang.rule.AbstractRuleChainVisitor logXPathRuleChainUsage
+FINE: Using rule chain for XPath 2.0 rule: UseArrayListInsteadOfVector (Performance)
+Mar 04, 2023 7:27:06 PM net.sourceforge.pmd.lang.rule.AbstractRuleChainVisitor logXPathRuleChainUsage
+FINE: Using rule chain for XPath 2.0 rule: UseArraysAsList (Performance)
+Mar 04, 2023 7:27:06 PM net.sourceforge.pmd.lang.rule.AbstractRuleChainVisitor logXPathRuleChainUsage
+FINE: Using rule chain for XPath 2.0 rule: UseIOStreamsWithApacheCommonsFileItem (Performance)
+Mar 04, 2023 7:27:07 PM net.sourceforge.pmd.processor.PmdRunnable call
+FINE: Processing C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\build\generated\not_namespaced_r_class_sources\debug\r\androidx\arch\core\R.java
+Mar 04, 2023 7:27:07 PM net.sourceforge.pmd.processor.PmdRunnable call
+FINE: Processing C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\build\generated\not_namespaced_r_class_sources\debug\r\androidx\asynclayoutinflater\R.java
+Mar 04, 2023 7:27:07 PM net.sourceforge.pmd.processor.PmdRunnable call
+FINE: Processing C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\build\generated\not_namespaced_r_class_sources\debug\r\androidx\cardview\R.java
+Mar 04, 2023 7:27:07 PM net.sourceforge.pmd.processor.PmdRunnable call
+FINE: Processing C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\build\generated\not_namespaced_r_class_sources\debug\r\androidx\constraintlayout\widget\R.java
+Mar 04, 2023 7:27:07 PM net.sourceforge.pmd.processor.PmdRunnable call
+FINE: Processing C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\build\generated\not_namespaced_r_class_sources\debug\r\androidx\coordinatorlayout\R.java
+Mar 04, 2023 7:27:07 PM net.sourceforge.pmd.processor.PmdRunnable call
+FINE: Processing C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\build\generated\not_namespaced_r_class_sources\debug\r\androidx\core\R.java
+Mar 04, 2023 7:27:07 PM net.sourceforge.pmd.processor.PmdRunnable call
+FINE: Processing C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\build\generated\not_namespaced_r_class_sources\debug\r\androidx\cursoradapter\R.java
+Mar 04, 2023 7:27:07 PM net.sourceforge.pmd.processor.PmdRunnable call
+FINE: Processing C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\build\generated\not_namespaced_r_class_sources\debug\r\androidx\customview\R.java
+Mar 04, 2023 7:27:07 PM net.sourceforge.pmd.processor.PmdRunnable call
+FINE: Processing C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\build\generated\not_namespaced_r_class_sources\debug\r\androidx\documentfile\R.java
+Mar 04, 2023 7:27:07 PM net.sourceforge.pmd.processor.PmdRunnable call
+FINE: Processing C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\build\generated\not_namespaced_r_class_sources\debug\r\androidx\drawerlayout\R.java
+Mar 04, 2023 7:27:07 PM net.sourceforge.pmd.processor.PmdRunnable call
+FINE: Processing C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\build\generated\not_namespaced_r_class_sources\debug\r\androidx\exifinterface\R.java
+Mar 04, 2023 7:27:07 PM net.sourceforge.pmd.processor.PmdRunnable call
+FINE: Processing C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\build\generated\not_namespaced_r_class_sources\debug\r\androidx\fragment\R.java
+Mar 04, 2023 7:27:07 PM net.sourceforge.pmd.processor.PmdRunnable call
+FINE: Processing C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\build\generated\not_namespaced_r_class_sources\debug\r\androidx\gridlayout\R.java
+Mar 04, 2023 7:27:07 PM net.sourceforge.pmd.processor.PmdRunnable call
+FINE: Processing C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\build\generated\not_namespaced_r_class_sources\debug\r\androidx\interpolator\R.java
+Mar 04, 2023 7:27:07 PM net.sourceforge.pmd.processor.PmdRunnable call
+FINE: Processing C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\build\generated\not_namespaced_r_class_sources\debug\r\androidx\legacy\coreui\R.java
+Mar 04, 2023 7:27:07 PM net.sourceforge.pmd.processor.PmdRunnable call
+FINE: Processing C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\build\generated\not_namespaced_r_class_sources\debug\r\androidx\legacy\coreutils\R.java
+Mar 04, 2023 7:27:07 PM net.sourceforge.pmd.processor.PmdRunnable call
+FINE: Processing C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\build\generated\not_namespaced_r_class_sources\debug\r\androidx\legacy\v4\R.java
+Mar 04, 2023 7:27:07 PM net.sourceforge.pmd.processor.PmdRunnable call
+FINE: Processing C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\build\generated\not_namespaced_r_class_sources\debug\r\androidx\lifecycle\R.java
+Mar 04, 2023 7:27:07 PM net.sourceforge.pmd.processor.PmdRunnable call
+FINE: Processing C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\build\generated\not_namespaced_r_class_sources\debug\r\androidx\lifecycle\extensions\R.java
+Mar 04, 2023 7:27:07 PM net.sourceforge.pmd.processor.PmdRunnable call
+FINE: Processing C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\build\generated\not_namespaced_r_class_sources\debug\r\androidx\lifecycle\livedata\R.java
+Mar 04, 2023 7:27:07 PM net.sourceforge.pmd.processor.PmdRunnable call
+FINE: Processing C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\build\generated\not_namespaced_r_class_sources\debug\r\androidx\lifecycle\livedata\core\R.java
+Mar 04, 2023 7:27:07 PM net.sourceforge.pmd.processor.PmdRunnable call
+FINE: Processing C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\build\generated\not_namespaced_r_class_sources\debug\r\androidx\lifecycle\process\R.java
+Mar 04, 2023 7:27:07 PM net.sourceforge.pmd.processor.PmdRunnable call
+FINE: Processing C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\build\generated\not_namespaced_r_class_sources\debug\r\androidx\lifecycle\service\R.java
+Mar 04, 2023 7:27:07 PM net.sourceforge.pmd.processor.PmdRunnable call
+FINE: Processing C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\build\generated\not_namespaced_r_class_sources\debug\r\androidx\lifecycle\viewmodel\R.java
+Mar 04, 2023 7:27:07 PM net.sourceforge.pmd.processor.PmdRunnable call
+FINE: Processing C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\build\generated\not_namespaced_r_class_sources\debug\r\androidx\loader\R.java
+Mar 04, 2023 7:27:08 PM net.sourceforge.pmd.processor.PmdRunnable call
+FINE: Processing C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\build\generated\not_namespaced_r_class_sources\debug\r\androidx\localbroadcastmanager\R.java
+Mar 04, 2023 7:27:08 PM net.sourceforge.pmd.processor.PmdRunnable call
+FINE: Processing C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\build\generated\not_namespaced_r_class_sources\debug\r\androidx\media\R.java
+Mar 04, 2023 7:27:08 PM net.sourceforge.pmd.processor.PmdRunnable call
+FINE: Processing C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\build\generated\not_namespaced_r_class_sources\debug\r\androidx\print\R.java
+Mar 04, 2023 7:27:08 PM net.sourceforge.pmd.processor.PmdRunnable call
+FINE: Processing C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\build\generated\not_namespaced_r_class_sources\debug\r\androidx\recyclerview\R.java
+Mar 04, 2023 7:27:08 PM net.sourceforge.pmd.processor.PmdRunnable call
+FINE: Processing C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\build\generated\not_namespaced_r_class_sources\debug\r\androidx\slidingpanelayout\R.java
+Mar 04, 2023 7:27:08 PM net.sourceforge.pmd.processor.PmdRunnable call
+FINE: Processing C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\build\generated\not_namespaced_r_class_sources\debug\r\androidx\swiperefreshlayout\R.java
+Mar 04, 2023 7:27:08 PM net.sourceforge.pmd.processor.PmdRunnable call
+FINE: Processing C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\build\generated\not_namespaced_r_class_sources\debug\r\androidx\transition\R.java
+Mar 04, 2023 7:27:08 PM net.sourceforge.pmd.processor.PmdRunnable call
+FINE: Processing C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\build\generated\not_namespaced_r_class_sources\debug\r\androidx\vectordrawable\R.java
+Mar 04, 2023 7:27:08 PM net.sourceforge.pmd.processor.PmdRunnable call
+FINE: Processing C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\build\generated\not_namespaced_r_class_sources\debug\r\androidx\versionedparcelable\R.java
+Mar 04, 2023 7:27:08 PM net.sourceforge.pmd.processor.PmdRunnable call
+FINE: Processing C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\build\generated\not_namespaced_r_class_sources\debug\r\androidx\viewpager\R.java
+Mar 04, 2023 7:27:08 PM net.sourceforge.pmd.processor.PmdRunnable call
+FINE: Processing C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\build\generated\not_namespaced_r_class_sources\debug\r\com\github\barteksc\pdfviewer\R.java
+Mar 04, 2023 7:27:08 PM net.sourceforge.pmd.processor.PmdRunnable call
+FINE: Processing C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\build\generated\not_namespaced_r_class_sources\debug\r\com\google\android\gms\base\R.java
+Mar 04, 2023 7:27:08 PM net.sourceforge.pmd.processor.PmdRunnable call
+FINE: Processing C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\build\generated\not_namespaced_r_class_sources\debug\r\com\google\android\gms\common\R.java
+Mar 04, 2023 7:27:08 PM net.sourceforge.pmd.processor.PmdRunnable call
+FINE: Processing C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\build\generated\not_namespaced_r_class_sources\debug\r\com\google\android\gms\flags\R.java
+Mar 04, 2023 7:27:08 PM net.sourceforge.pmd.processor.PmdRunnable call
+FINE: Processing C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\build\generated\not_namespaced_r_class_sources\debug\r\com\google\android\gms\tasks\R.java
+Mar 04, 2023 7:27:08 PM net.sourceforge.pmd.processor.PmdRunnable call
+FINE: Processing C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\build\generated\not_namespaced_r_class_sources\debug\r\com\google\android\material\R.java
+Mar 04, 2023 7:27:09 PM net.sourceforge.pmd.processor.PmdRunnable call
+FINE: Processing C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\build\generated\not_namespaced_r_class_sources\debug\r\com\google\firebase\R.java
+Mar 04, 2023 7:27:09 PM net.sourceforge.pmd.processor.PmdRunnable call
+FINE: Processing C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\build\generated\not_namespaced_r_class_sources\debug\r\com\google\firebase\auth\R.java
+Mar 04, 2023 7:27:09 PM net.sourceforge.pmd.processor.PmdRunnable call
+FINE: Processing C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\build\generated\not_namespaced_r_class_sources\debug\r\com\google\firebase\auth\internal\R.java
+Mar 04, 2023 7:27:09 PM net.sourceforge.pmd.processor.PmdRunnable call
+FINE: Processing C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\build\generated\not_namespaced_r_class_sources\debug\r\com\google\firebase\database\collection\R.java
+Mar 04, 2023 7:27:09 PM net.sourceforge.pmd.processor.PmdRunnable call
+FINE: Processing C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\build\generated\not_namespaced_r_class_sources\debug\r\com\google\firebase\firestore\R.java
+Mar 04, 2023 7:27:09 PM net.sourceforge.pmd.processor.PmdRunnable call
+FINE: Processing C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\build\generated\not_namespaced_r_class_sources\debug\r\com\google\firebase\storage\R.java
+Mar 04, 2023 7:27:09 PM net.sourceforge.pmd.processor.PmdRunnable call
+FINE: Processing C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\build\generated\not_namespaced_r_class_sources\debug\r\com\gun0912\tedpermission\R.java
+Mar 04, 2023 7:27:09 PM net.sourceforge.pmd.processor.PmdRunnable call
+FINE: Processing C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\build\generated\not_namespaced_r_class_sources\debug\r\com\mikhaellopez\circularimageview\R.java
+Mar 04, 2023 7:27:10 PM net.sourceforge.pmd.processor.PmdRunnable call
+FINE: Processing C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\build\generated\not_namespaced_r_class_sources\debug\r\com\shockwave\pdfium\R.java
+Mar 04, 2023 7:27:10 PM net.sourceforge.pmd.processor.PmdRunnable call
+FINE: Processing C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\build\generated\not_namespaced_r_class_sources\debug\r\com\squareup\picasso\R.java
+Mar 04, 2023 7:27:10 PM net.sourceforge.pmd.processor.PmdRunnable call
+FINE: Processing C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\build\generated\not_namespaced_r_class_sources\debug\r\com\whatEver\iitnstu\R.java
+Mar 04, 2023 7:27:11 PM net.sourceforge.pmd.processor.PmdRunnable call
+FINE: Processing C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\build\generated\not_namespaced_r_class_sources\debug\r\firebase\com\protolitewrapper\R.java
+Mar 04, 2023 7:27:11 PM net.sourceforge.pmd.processor.PmdRunnable call
+FINE: Processing C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\build\generated\source\buildConfig\debug\com\whatEver\iitnstu\BuildConfig.java
+Mar 04, 2023 7:27:11 PM net.sourceforge.pmd.processor.PmdRunnable call
+FINE: Processing C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\src\androidTest\java\com\whatEver\iitnstu\AuthenticationActivityTest.java
+Mar 04, 2023 7:27:11 PM net.sourceforge.pmd.processor.PmdRunnable call
+FINE: Processing C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\src\androidTest\java\com\whatEver\iitnstu\ExampleInstrumentedTest.java
+Mar 04, 2023 7:27:11 PM net.sourceforge.pmd.processor.PmdRunnable call
+FINE: Processing C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\src\main\java\com\whatEver\iitnstu\AllCourseDetailsActivity.java
+Mar 04, 2023 7:27:11 PM net.sourceforge.pmd.processor.PmdRunnable call
+FINE: Processing C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\src\main\java\com\whatEver\iitnstu\AuthenticationActivity.java
+Mar 04, 2023 7:27:11 PM net.sourceforge.pmd.processor.PmdRunnable call
+FINE: Processing C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\src\main\java\com\whatEver\iitnstu\CourseCoordinatorActivity.java
+Mar 04, 2023 7:27:11 PM net.sourceforge.pmd.processor.PmdRunnable call
+FINE: Processing C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\src\main\java\com\whatEver\iitnstu\DevelopersActivity.java
+Mar 04, 2023 7:27:11 PM net.sourceforge.pmd.processor.PmdRunnable call
+FINE: Processing C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\src\main\java\com\whatEver\iitnstu\DirectorProfileActivity.java
+Mar 04, 2023 7:27:11 PM net.sourceforge.pmd.processor.PmdRunnable call
+FINE: Processing C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\src\main\java\com\whatEver\iitnstu\HomeActivity.java
+Mar 04, 2023 7:27:11 PM net.sourceforge.pmd.processor.PmdRunnable call
+FINE: Processing C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\src\main\java\com\whatEver\iitnstu\IntroActivity.java
+Mar 04, 2023 7:27:11 PM net.sourceforge.pmd.processor.PmdRunnable call
+FINE: Processing C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\src\main\java\com\whatEver\iitnstu\MainActivity.java
+Mar 04, 2023 7:27:11 PM net.sourceforge.pmd.processor.PmdRunnable call
+FINE: Processing C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\src\main\java\com\whatEver\iitnstu\NoticeBoardActivity.java
+Mar 04, 2023 7:27:11 PM net.sourceforge.pmd.lang.java.typeresolution.MethodTypeResolution isSubtypeable
+FINE: No type information for node Expression
+Mar 04, 2023 7:27:11 PM net.sourceforge.pmd.lang.java.typeresolution.MethodTypeResolution isSubtypeable
+FINE: No type information for node Expression
+Mar 04, 2023 7:27:11 PM net.sourceforge.pmd.lang.java.typeresolution.MethodTypeResolution isSubtypeable
+FINE: No type information for node Expression
+Mar 04, 2023 7:27:11 PM net.sourceforge.pmd.lang.java.typeresolution.MethodTypeResolution isSubtypeable
+FINE: No type information for node Expression
+Mar 04, 2023 7:27:11 PM net.sourceforge.pmd.lang.java.typeresolution.MethodTypeResolution isSubtypeable
+FINE: No type information for node Expression
+Mar 04, 2023 7:27:11 PM net.sourceforge.pmd.lang.java.typeresolution.MethodTypeResolution isSubtypeable
+FINE: No type information for node Expression
+Mar 04, 2023 7:27:11 PM net.sourceforge.pmd.lang.java.typeresolution.MethodTypeResolution isSubtypeable
+FINE: No type information for node Expression
+Mar 04, 2023 7:27:11 PM net.sourceforge.pmd.lang.java.typeresolution.MethodTypeResolution isSubtypeable
+FINE: No type information for node Expression
+Mar 04, 2023 7:27:11 PM net.sourceforge.pmd.lang.java.typeresolution.MethodTypeResolution isSubtypeable
+FINE: No type information for node Expression
+Mar 04, 2023 7:27:11 PM net.sourceforge.pmd.lang.java.typeresolution.MethodTypeResolution isSubtypeable
+FINE: No type information for node Expression
+Mar 04, 2023 7:27:11 PM net.sourceforge.pmd.lang.java.typeresolution.MethodTypeResolution isSubtypeable
+FINE: No type information for node Expression
+Mar 04, 2023 7:27:11 PM net.sourceforge.pmd.lang.java.typeresolution.MethodTypeResolution isSubtypeable
+FINE: No type information for node Expression
+Mar 04, 2023 7:27:11 PM net.sourceforge.pmd.lang.java.typeresolution.MethodTypeResolution isSubtypeable
+FINE: No type information for node Expression
+Mar 04, 2023 7:27:11 PM net.sourceforge.pmd.lang.java.typeresolution.MethodTypeResolution isSubtypeable
+FINE: No type information for node Expression
+Mar 04, 2023 7:27:11 PM net.sourceforge.pmd.lang.java.typeresolution.MethodTypeResolution isSubtypeable
+FINE: No type information for node Expression
+Mar 04, 2023 7:27:11 PM net.sourceforge.pmd.lang.java.typeresolution.MethodTypeResolution isSubtypeable
+FINE: No type information for node Expression
+Mar 04, 2023 7:27:11 PM net.sourceforge.pmd.lang.java.typeresolution.MethodTypeResolution isSubtypeable
+FINE: No type information for node Expression
+Mar 04, 2023 7:27:11 PM net.sourceforge.pmd.lang.java.typeresolution.MethodTypeResolution isSubtypeable
+FINE: No type information for node Expression
+Mar 04, 2023 7:27:11 PM net.sourceforge.pmd.lang.java.typeresolution.MethodTypeResolution isSubtypeable
+FINE: No type information for node Expression
+Mar 04, 2023 7:27:11 PM net.sourceforge.pmd.lang.java.typeresolution.MethodTypeResolution isSubtypeable
+FINE: No type information for node Expression
+Mar 04, 2023 7:27:11 PM net.sourceforge.pmd.lang.java.typeresolution.MethodTypeResolution isSubtypeable
+FINE: No type information for node Expression
+Mar 04, 2023 7:27:11 PM net.sourceforge.pmd.processor.PmdRunnable call
+FINE: Processing C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\src\main\java\com\whatEver\iitnstu\OfficialsActivity.java
+Mar 04, 2023 7:27:11 PM net.sourceforge.pmd.processor.PmdRunnable call
+FINE: Processing C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\src\main\java\com\whatEver\iitnstu\ProfileActivity.java
+Mar 04, 2023 7:27:11 PM net.sourceforge.pmd.processor.PmdRunnable call
+FINE: Processing C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\src\main\java\com\whatEver\iitnstu\RegisterUserActivity.java
+Mar 04, 2023 7:27:11 PM net.sourceforge.pmd.lang.java.typeresolution.MethodTypeResolution isSubtypeable
+FINE: No type information for node Expression
+Mar 04, 2023 7:27:11 PM net.sourceforge.pmd.lang.java.typeresolution.MethodTypeResolution isSubtypeable
+FINE: No type information for node Expression
+Mar 04, 2023 7:27:11 PM net.sourceforge.pmd.lang.java.typeresolution.MethodTypeResolution isSubtypeable
+FINE: No type information for node Expression
+Mar 04, 2023 7:27:11 PM net.sourceforge.pmd.lang.java.typeresolution.MethodTypeResolution isSubtypeable
+FINE: No type information for node Expression
+Mar 04, 2023 7:27:11 PM net.sourceforge.pmd.lang.java.typeresolution.MethodTypeResolution isSubtypeable
+FINE: No type information for node Expression
+Mar 04, 2023 7:27:11 PM net.sourceforge.pmd.lang.java.typeresolution.MethodTypeResolution isSubtypeable
+FINE: No type information for node Expression
+Mar 04, 2023 7:27:11 PM net.sourceforge.pmd.lang.java.typeresolution.MethodTypeResolution isSubtypeable
+FINE: No type information for node Expression
+Mar 04, 2023 7:27:11 PM net.sourceforge.pmd.lang.java.typeresolution.MethodTypeResolution isSubtypeable
+FINE: No type information for node Expression
+Mar 04, 2023 7:27:11 PM net.sourceforge.pmd.lang.java.typeresolution.MethodTypeResolution isSubtypeable
+FINE: No type information for node Expression
+Mar 04, 2023 7:27:11 PM net.sourceforge.pmd.lang.java.typeresolution.MethodTypeResolution isSubtypeable
+FINE: No type information for node Expression
+Mar 04, 2023 7:27:11 PM net.sourceforge.pmd.lang.java.typeresolution.MethodTypeResolution isSubtypeable
+FINE: No type information for node Expression
+Mar 04, 2023 7:27:11 PM net.sourceforge.pmd.lang.java.typeresolution.MethodTypeResolution isSubtypeable
+FINE: No type information for node Expression
+Mar 04, 2023 7:27:11 PM net.sourceforge.pmd.processor.PmdRunnable call
+FINE: Processing C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\src\main\java\com\whatEver\iitnstu\SearchActivity.java
+Mar 04, 2023 7:27:11 PM net.sourceforge.pmd.lang.java.typeresolution.MethodTypeResolution isSubtypeable
+FINE: No type information for node Expression
+Mar 04, 2023 7:27:11 PM net.sourceforge.pmd.lang.java.typeresolution.MethodTypeResolution isSubtypeable
+FINE: No type information for node Expression
+Mar 04, 2023 7:27:11 PM net.sourceforge.pmd.lang.java.typeresolution.MethodTypeResolution isSubtypeable
+FINE: No type information for node Expression
+Mar 04, 2023 7:27:11 PM net.sourceforge.pmd.lang.java.typeresolution.MethodTypeResolution isSubtypeable
+FINE: No type information for node Expression
+Mar 04, 2023 7:27:11 PM net.sourceforge.pmd.lang.java.typeresolution.MethodTypeResolution isSubtypeable
+FINE: No type information for node Expression
+Mar 04, 2023 7:27:11 PM net.sourceforge.pmd.lang.java.typeresolution.MethodTypeResolution isSubtypeable
+FINE: No type information for node Expression
+Mar 04, 2023 7:27:11 PM net.sourceforge.pmd.lang.java.typeresolution.MethodTypeResolution isSubtypeable
+FINE: No type information for node Expression
+Mar 04, 2023 7:27:11 PM net.sourceforge.pmd.lang.java.typeresolution.MethodTypeResolution isSubtypeable
+FINE: No type information for node Expression
+Mar 04, 2023 7:27:11 PM net.sourceforge.pmd.lang.java.typeresolution.MethodTypeResolution isSubtypeable
+FINE: No type information for node Expression
+Mar 04, 2023 7:27:11 PM net.sourceforge.pmd.processor.PmdRunnable call
+FINE: Processing C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\src\main\java\com\whatEver\iitnstu\StudentAdapterActivity.java
+Mar 04, 2023 7:27:12 PM net.sourceforge.pmd.processor.PmdRunnable call
+FINE: Processing C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\src\main\java\com\whatEver\iitnstu\StudentInfoActivity.java
+Mar 04, 2023 7:27:12 PM net.sourceforge.pmd.processor.PmdRunnable call
+FINE: Processing C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\src\main\java\com\whatEver\iitnstu\SyllabusActivity.java
+Mar 04, 2023 7:27:12 PM net.sourceforge.pmd.processor.PmdRunnable call
+FINE: Processing C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\src\main\java\com\whatEver\iitnstu\TeachersInfoActivity.java
+Mar 04, 2023 7:27:12 PM net.sourceforge.pmd.processor.PmdRunnable call
+FINE: Processing C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\src\main\java\com\whatEver\iitnstu\cards\BatchCard.java
+Mar 04, 2023 7:27:12 PM net.sourceforge.pmd.lang.java.typeresolution.MethodTypeResolution isMethodConvertible
+FINE: No type information for node Expression
+Mar 04, 2023 7:27:12 PM net.sourceforge.pmd.lang.java.typeresolution.MethodTypeResolution isMethodConvertible
+FINE: No type information for node Expression
+Mar 04, 2023 7:27:12 PM net.sourceforge.pmd.processor.PmdRunnable call
+FINE: Processing C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\src\main\java\com\whatEver\iitnstu\cards\Card.java
+Mar 04, 2023 7:27:12 PM net.sourceforge.pmd.processor.PmdRunnable call
+FINE: Processing C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\src\main\java\com\whatEver\iitnstu\cards\CourseCoCard.java
+Mar 04, 2023 7:27:12 PM net.sourceforge.pmd.processor.PmdRunnable call
+FINE: Processing C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\src\main\java\com\whatEver\iitnstu\cards\NoticeCard.java
+Mar 04, 2023 7:27:12 PM net.sourceforge.pmd.processor.PmdRunnable call
+FINE: Processing C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\src\main\java\com\whatEver\iitnstu\cards\OfficialsCard.java
+Mar 04, 2023 7:27:12 PM net.sourceforge.pmd.processor.PmdRunnable call
+FINE: Processing C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\src\main\java\com\whatEver\iitnstu\cards\StudentCard.java
+Mar 04, 2023 7:27:12 PM net.sourceforge.pmd.processor.PmdRunnable call
+FINE: Processing C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\src\main\java\com\whatEver\iitnstu\cards\TeacherCard.java
+Mar 04, 2023 7:27:12 PM net.sourceforge.pmd.processor.PmdRunnable call
+FINE: Processing C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\src\main\java\com\whatEver\iitnstu\models\Batch.java
+Mar 04, 2023 7:27:12 PM net.sourceforge.pmd.processor.PmdRunnable call
+FINE: Processing C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\src\main\java\com\whatEver\iitnstu\models\CourseCo.java
+Mar 04, 2023 7:27:12 PM net.sourceforge.pmd.processor.PmdRunnable call
+FINE: Processing C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\src\main\java\com\whatEver\iitnstu\models\Notice.java
+Mar 04, 2023 7:27:12 PM net.sourceforge.pmd.processor.PmdRunnable call
+FINE: Processing C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\src\main\java\com\whatEver\iitnstu\models\Official.java
+Mar 04, 2023 7:27:12 PM net.sourceforge.pmd.processor.PmdRunnable call
+FINE: Processing C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\src\main\java\com\whatEver\iitnstu\models\Student.java
+Mar 04, 2023 7:27:12 PM net.sourceforge.pmd.processor.PmdRunnable call
+FINE: Processing C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\src\main\java\com\whatEver\iitnstu\models\Teacher.java
+Mar 04, 2023 7:27:12 PM net.sourceforge.pmd.processor.PmdRunnable call
+FINE: Processing C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\src\main\java\com\whatEver\iitnstu\tools\LoadingDialog.java
+Mar 04, 2023 7:27:12 PM net.sourceforge.pmd.processor.PmdRunnable call
+FINE: Processing C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\src\main\java\com\whatEver\iitnstu\tools\PdfViewer.java
+Mar 04, 2023 7:27:12 PM net.sourceforge.pmd.processor.PmdRunnable call
+FINE: Processing C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\src\test\java\com\whatEver\iitnstu\ExampleUnitTest.java
+[2023-03-04 19:27:24] End:DirectoryBasedAnalysisTask Result:OK

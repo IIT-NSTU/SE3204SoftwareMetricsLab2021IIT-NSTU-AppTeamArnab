@@ -1,0 +1,11 @@
+Total matches: 2
+Blob matches: 1
+featureEnvy matches: 1
+
+Pattern 'Blob' has been found on 'R$styleable'
+Source : C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\build\generated\not_namespaced_r_class_sources\debug\r\com\whatEver\iitnstu\R.java [Ln:6531, Col:3 - Ln:21402, Col:4]
+Role 'BlobClass' fits on 'R$styleable' (nodeid '14471'), C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\build\generated\not_namespaced_r_class_sources\debug\r\com\whatEver\iitnstu\R.java [Ln:6531, Col:3 - Ln:21402, Col:4]
+
+Pattern 'featureEnvy' has been found on '<lambda>()'
+Source : C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\src\main\java\com\whatEver\iitnstu\DirectorProfileActivity.java [Ln:54, Col:106 - Ln:66, Col:10]
+Role 'envyMethod' fits on '<lambda>()' (nodeid '16851'), C:\Users\arnab\AndroidStudioProjects\IITNSTU\app\src\main\java\com\whatEver\iitnstu\DirectorProfileActivity.java [Ln:54, Col:106 - Ln:66, Col:10]

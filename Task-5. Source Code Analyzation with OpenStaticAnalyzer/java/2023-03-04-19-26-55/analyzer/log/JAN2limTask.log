@@ -1,0 +1,13 @@
+[2023-03-04 19:27:24] Start:JAN2limTask
+JAN2Lim 5.1.0 (Build:85480f99) - Copyright (c) 2004-2022 Department of Software Engineering - University of Szeged 
+The component structure  hasn't built.
+Loading file:    C:\Users\arnab\AndroidStudioProjects\IITNSTU\.columbus_java\IITNSTU.ljsi
+
+Statistics:
+	Converting time              :       2.17s
+	Saving asg time              :       0.11s
+	Total time                   :       2.28s
+	Peak memory usage            :      74.98MB
+	Number of not existed files  :          0
+
+[2023-03-04 19:27:26] End:JAN2limTask Result:OK
